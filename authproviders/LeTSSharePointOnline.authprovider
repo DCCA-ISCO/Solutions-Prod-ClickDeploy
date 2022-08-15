@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://hawaiioimt.sharepoint.com/teams/DCCASolution/LeTS/_layouts/15/OauthAuthorize.aspx</authorizeUrl>
+    <consumerKey>0f5437e2-d3b9-4b73-97c0-0a079f2b7ef1</consumerKey>
+    <consumerSecret>QKMO7hMy80Dlzh/9OI0V2Mji/L/758q5mB5dt/yTtEhxpNucRPyF/f5EWyOwTJ+6</consumerSecret>
+    <friendlyName>LeTSSharePointOnline</friendlyName>
+    <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
+    <providerType>MicrosoftACS</providerType>
+    <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <sendSecretInApis>true</sendSecretInApis>
+    <tokenUrl>https://accounts.accesscontrol.windows.net/hawaiioimt.onmicrosoft.com/tokens/OAuth/2?resource=00000003-0000-0ff1-ce00-000000000000/hawaiioimt.sharepoint.com@hawaiioimt.onmicrosoft.com</tokenUrl>
+</AuthProvider>

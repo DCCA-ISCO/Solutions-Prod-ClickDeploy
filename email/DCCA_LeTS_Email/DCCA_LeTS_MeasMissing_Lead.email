@@ -1,0 +1,12 @@
+The Lead Division for measure - {!DCCA_LeTS_Measure_Main__c.DCCA_LeTS_Meas_baseid__c} - is missing.
+
+DIV2 - {!DCCA_LeTS_Measure_Main__c.Div2__c}  DIV2 Action - {!DCCA_LeTS_Measure_Main__c.Div2_Action__c}
+
+DIV3 - {!DCCA_LeTS_Measure_Main__c.Div3__c}  DIV3 Action - {!DCCA_LeTS_Measure_Main__c.Div3_Action__c}
+
+DIV4 - {!DCCA_LeTS_Measure_Main__c.Div4__c}  DIV4 Action - {!DCCA_LeTS_Measure_Main__c.Div4_Action__c}
+
+DIV5 - {!DCCA_LeTS_Measure_Main__c.Div5__c}  DIV5 Action - {!DCCA_LeTS_Measure_Main__c.Div5_Action__c}
+
+
+Please use this link to see the measure - {!DCCA_LeTS_Measure_Main__c.Link}

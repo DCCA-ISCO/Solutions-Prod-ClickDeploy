@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Reminder notifications to DIV Assigned of nearing DO Due Date</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>DCCA DO Referral Reminder</name>
+    <style>none</style>
+    <subject>DOR - DCCA Director&apos;s Office Referral Due Date Reminder</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

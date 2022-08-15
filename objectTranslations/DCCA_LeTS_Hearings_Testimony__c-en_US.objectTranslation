@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DCCA LeTS Hearings_Testimony</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DCCA LeTS Hearings_Testimonies</value>
+    </caseValues>
+    <fields>
+        <label><!-- HT CmteMtgInfo --></label>
+        <name>DCCA_LeTS_CmteMtgInfo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Committee Entry --></label>
+        <name>DCCA_LeTS_Committee_Entry__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Cmte Mtg Date --></label>
+        <name>DCCA_LeTS_HT_Cmte_Mtg_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meas Cmte Mtg Notice Link --></label>
+        <name>DCCA_LeTS_HT_Cmte_Mtg_Notice_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- HT Cmte Mtg Notice --></label>
+        <name>DCCA_LeTS_HT_Cmte_Mtg_Notice__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Cmte Mtg Room --></label>
+        <name>DCCA_LeTS_HT_Cmte_Mtg_Room__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Cmte Notice Link --></label>
+        <name>DCCA_LeTS_HT_Cmte_Notice_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Cmte Stream --></label>
+        <name>DCCA_LeTS_HT_Cmte_Stream__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meas Committee --></label>
+        <name>DCCA_LeTS_HT_Committee__c</name>
+    </fields>
+    <fields>
+        <label><!-- DIV2 Action --></label>
+        <name>DCCA_LeTS_HT_DIV2_Action__c</name>
+    </fields>
+    <fields>
+        <help><!-- Only use Hearing Position if the Action needed does not match Division Action. --></help>
+        <label><!-- DIV2 Hearing Position --></label>
+        <name>DCCA_LeTS_HT_DIV2_Hearing_Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- DIV2 Testimony Status --></label>
+        <name>DCCA_LeTS_HT_DIV2_Testimony_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- DIV2 --></label>
+        <name>DCCA_LeTS_HT_DIV2__c</name>
+    </fields>
+    <fields>
+        <label><!-- DIV3 Action --></label>
+        <name>DCCA_LeTS_HT_DIV3_Action__c</name>
+    </fields>
+    <fields>
+        <help><!-- Only use Hearing Position if the Action needed does not match Division Action. --></help>
+        <label><!-- DIV3 Hearing Position --></label>
+        <name>DCCA_LeTS_HT_DIV3_Hearing_Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- DIV3 Testimony Status --></label>
+        <name>DCCA_LeTS_HT_DIV3_Testimony_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- DIV3 --></label>
+        <name>DCCA_LeTS_HT_DIV3__c</name>
+    </fields>
+    <fields>
+        <label><!-- DIV4 Action --></label>
+        <name>DCCA_LeTS_HT_DIV4_Action__c</name>
+    </fields>
+    <fields>
+        <help><!-- Only use Hearing Position if the Action needed does not match Division Action. --></help>
+        <label><!-- DIV4 Hearing Position --></label>
+        <name>DCCA_LeTS_HT_DIV4_Hearing_Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- DIV4 Testimony Status --></label>
+        <name>DCCA_LeTS_HT_DIV4_Testimony_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- DIV4 --></label>
+        <name>DCCA_LeTS_HT_DIV4__c</name>
+    </fields>
+    <fields>
+        <label><!-- DIV5 Action --></label>
+        <name>DCCA_LeTS_HT_DIV5_Action__c</name>
+    </fields>
+    <fields>
+        <help><!-- Only use Hearing Position if the Action needed does not match Division Action. --></help>
+        <label><!-- DIV5 Hearing Position --></label>
+        <name>DCCA_LeTS_HT_DIV5_Hearing_Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- DIV5 Testimony Status --></label>
+        <name>DCCA_LeTS_HT_DIV5_Testimony_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- DIV5 --></label>
+        <name>DCCA_LeTS_HT_DIV5__c</name>
+    </fields>
+    <fields>
+        <help><!-- Only use Hearing Position if the Action needed does not match Division Action. --></help>
+        <label><!-- DIV Lead Hearing Position --></label>
+        <name>DCCA_LeTS_HT_DIV_Lead_Hearing_Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- DIV Lead --></label>
+        <name>DCCA_LeTS_HT_DIV_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- DIV Testimony Status --></label>
+        <name>DCCA_LeTS_HT_DIV_Testimony_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Email ASO --></label>
+        <name>DCCA_LeTS_HT_Email_ASO__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Email All --></label>
+        <name>DCCA_LeTS_HT_Email_All__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Email BREG --></label>
+        <name>DCCA_LeTS_HT_Email_BREG__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Email CATV --></label>
+        <name>DCCA_LeTS_HT_Email_CATV__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Email Coord --></label>
+        <name>DCCA_LeTS_HT_Email_Coord__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Email DCA --></label>
+        <name>DCCA_LeTS_HT_Email_DCA__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Email DFI --></label>
+        <name>DCCA_LeTS_HT_Email_DFI__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Email DO --></label>
+        <name>DCCA_LeTS_HT_Email_DO__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Email HPEAP --></label>
+        <name>DCCA_LeTS_HT_Email_HPEAP__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Email INS --></label>
+        <name>DCCA_LeTS_HT_Email_INS__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Email ISCO --></label>
+        <name>DCCA_LeTS_HT_Email_ISCO__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Email OAH --></label>
+        <name>DCCA_LeTS_HT_Email_OAH__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Email OCP --></label>
+        <name>DCCA_LeTS_HT_Email_OCP__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Email PVL --></label>
+        <name>DCCA_LeTS_HT_Email_PVL__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Email RICO --></label>
+        <name>DCCA_LeTS_HT_Email_RICO__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Frmtd Date --></label>
+        <name>DCCA_LeTS_HT_Frmtd_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Div Lead Action --></label>
+        <name>DCCA_LeTS_HT_Lead_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Meas Baseid --></label>
+        <name>DCCA_LeTS_HT_Meas_Baseid__c</name>
+    </fields>
+    <fields>
+        <label><!-- HSL Measure Link --></label>
+        <name>DCCA_LeTS_HT_Measure__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Meeting Date Time --></label>
+        <name>DCCA_LeTS_HT_Meeting_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Mtg Adjusted --></label>
+        <name>DCCA_LeTS_HT_Mtg_Adjusted__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Measure base --></label>
+        <name>DCCA_LeTS_Measure_base__c</name>
+        <relationshipLabel><!-- DCCA LeTS Hearings_Testimonies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- HT Div2 Summary --></label>
+        <name>HT_Div2_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- HT Div3 Summary --></label>
+        <name>HT_Div3_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- HT Div4 Summary --></label>
+        <name>HT_Div4_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- HT Div5 Summary --></label>
+        <name>HT_Div5_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- HT Div Summary --></label>
+        <name>HT_Div_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- LeTS Div2 email --></label>
+        <name>LeTS_Div2_email__c</name>
+    </fields>
+    <fields>
+        <label><!-- LeTS Div3 email --></label>
+        <name>LeTS_Div3_email__c</name>
+    </fields>
+    <fields>
+        <label><!-- LeTS Div4 email --></label>
+        <name>LeTS_Div4_email__c</name>
+    </fields>
+    <fields>
+        <label><!-- LeTS Div5 email --></label>
+        <name>LeTS_Div5_email__c</name>
+    </fields>
+    <fields>
+        <label><!-- LeTS Lead Div email --></label>
+        <name>LeTS_Lead_Div_email__c</name>
+    </fields>
+    <layouts>
+        <layout>DCCA LeTS Hearings_Testimony Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- DCCA LeTs Committee Mtg1 --></label>
+        <name>DCCA_LeTs_Committee_Mtg1</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LeTSHTdivEmails --></label>
+        <name>LeTSHTdivEmails</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LeTS DIV ACT Updts --></label>
+        <name>LeTS_DIV_ACT_Updts</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LeTS HT Email Updt1 --></label>
+        <name>LeTS_HT_Email_Updt1</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LeTS HT Email Updt2 --></label>
+        <name>LeTS_HT_Email_Updt2</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LeTS Send DIV Email --></label>
+        <name>LeTS_Send_DIV_email</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

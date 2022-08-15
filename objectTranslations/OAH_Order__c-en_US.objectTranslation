@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OAH Order</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OAH Orders</value>
+    </caseValues>
+    <fields>
+        <label><!-- BFO Transmittal Date --></label>
+        <name>BFO_Transmittal_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Board Approval Date --></label>
+        <name>Board_Approval_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Issuance --></label>
+        <name>Date_of_Issuance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Date --></label>
+        <name>Mailing_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAH Case Number --></label>
+        <name>OAH_Case_Number__c</name>
+        <relationshipLabel><!-- OAH Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Old Record ID --></label>
+        <name>Old_Record_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Type --></label>
+        <name>Order_Type__c</name>
+        <picklistValues>
+            <masterLabel>FO</masterLabel>
+            <translation><!-- FO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HOFO</masterLabel>
+            <translation><!-- HOFO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HORO</masterLabel>
+            <translation><!-- HORO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplemental</masterLabel>
+            <translation><!-- Supplemental --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Receipt Date --></label>
+        <name>Receipt_Date__c</name>
+    </fields>
+    <layouts>
+        <layout>OAH Order Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

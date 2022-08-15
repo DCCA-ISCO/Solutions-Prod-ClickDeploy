@@ -1,0 +1,11 @@
+DCCA Division(s) - {!DCCA_DO_Referral__c.Division__c}  {!DCCA_DO_Referral__c.Division_2__c}
+
+The due date to submit a response to the Director's Office is coming up for the following referral::
+DCCA Referral Number: {!DCCA_DO_Referral__c.Referral_NO__c}
+DCCA Constituent: {!DCCA_DO_Referral__c.Constituent__c}
+
+Due Date: {!DCCA_DO_Referral__c.Due_Date_DO__c}
+
+Use the link below to directly access the referral.
+
+Referral link: {!DCCA_DO_Referral__c.Link}

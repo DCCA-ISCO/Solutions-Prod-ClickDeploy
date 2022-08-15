@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DCCA LeTS Measure</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DCCA LeTS Measures</value>
+    </caseValues>
+    <fields>
+        <label><!-- All Divisions Track --></label>
+        <name>All_Divisions_Track__c</name>
+        <picklistValues>
+            <masterLabel>All Track</masterLabel>
+            <translation><!-- All Track --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off</masterLabel>
+            <translation><!-- Off --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Admin Indicator --></label>
+        <name>DCCA_LeTS_Admin_Indicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Appropriations --></label>
+        <name>DCCA_LeTS_Appropriations__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Companion2 --></label>
+        <name>DCCA_LeTS_Companion2__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Companion3 --></label>
+        <name>DCCA_LeTS_Companion3__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Companion4 --></label>
+        <name>DCCA_LeTS_Companion4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Companion Links on HSL --></label>
+        <name>DCCA_LeTS_Companion_Links__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Companion --></label>
+        <name>DCCA_LeTS_Companion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Status --></label>
+        <name>DCCA_LeTS_Current_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Introducers --></label>
+        <name>DCCA_LeTS_Introducers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keywords --></label>
+        <name>DCCA_LeTS_Keywords__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Mail List --></label>
+        <name>DCCA_LeTS_Mail_List__c</name>
+        <relationshipLabel><!-- DCCA LeTS Measures --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Meas Report Title --></label>
+        <name>DCCA_LeTS_Main_Report_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Companion Link2 --></label>
+        <name>DCCA_LeTS_Meas_Companion_Link2__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Companion Link3 --></label>
+        <name>DCCA_LeTS_Meas_Companion_Link3__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Companion Link4 --></label>
+        <name>DCCA_LeTS_Meas_Companion_Link4__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Companion Link --></label>
+        <name>DCCA_LeTS_Meas_Companion_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meas Description --></label>
+        <name>DCCA_LeTS_Meas_Desc__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Email ASO --></label>
+        <name>DCCA_LeTS_Meas_Email_ASO__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Email All --></label>
+        <name>DCCA_LeTS_Meas_Email_All__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Email BREG --></label>
+        <name>DCCA_LeTS_Meas_Email_BREG__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Email CATV --></label>
+        <name>DCCA_LeTS_Meas_Email_CATV__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Email DCA --></label>
+        <name>DCCA_LeTS_Meas_Email_DCA__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Email DFI --></label>
+        <name>DCCA_LeTS_Meas_Email_DFI__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Email DO --></label>
+        <name>DCCA_LeTS_Meas_Email_DO__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Email HPEAP --></label>
+        <name>DCCA_LeTS_Meas_Email_HPEAP__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Email INS --></label>
+        <name>DCCA_LeTS_Meas_Email_INS__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Email ISCO --></label>
+        <name>DCCA_LeTS_Meas_Email_ISCO__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Email Leg Coord --></label>
+        <name>DCCA_LeTS_Meas_Email_Leg_Coord__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Email OAH --></label>
+        <name>DCCA_LeTS_Meas_Email_OAH__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Email OCP --></label>
+        <name>DCCA_LeTS_Meas_Email_OCP__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Email PVL --></label>
+        <name>DCCA_LeTS_Meas_Email_PVL__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Email RICO --></label>
+        <name>DCCA_LeTS_Meas_Email_RICO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meas HSL Link --></label>
+        <name>DCCA_LeTS_Meas_HSL_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meas Identifier --></label>
+        <name>DCCA_LeTS_Meas_Identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Link --></label>
+        <name>DCCA_LeTS_Meas_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meas Title --></label>
+        <name>DCCA_LeTS_Meas_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas baseid --></label>
+        <name>DCCA_LeTS_Meas_baseid__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS PDF addr --></label>
+        <name>DCCA_LeTS_PDF_addr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meas PDF link --></label>
+        <name>DCCA_LeTS_PDF_link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meas Package --></label>
+        <name>DCCA_LeTS_Package__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referrals --></label>
+        <name>DCCA_LeTS_Referrals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Div2 Action --></label>
+        <name>Div2_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Div2 --></label>
+        <name>Div2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Div3 Action --></label>
+        <name>Div3_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Div3 --></label>
+        <name>Div3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Div4 Action --></label>
+        <name>Div4_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Div4 --></label>
+        <name>Div4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Div5 Action --></label>
+        <name>Div5_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Div5 --></label>
+        <name>Div5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Div Action --></label>
+        <name>Lead_Div_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Division --></label>
+        <name>Lead_Division__c</name>
+    </fields>
+    <fields>
+        <label><!-- Measure Stage --></label>
+        <name>Measure_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- SetMeasStage --></label>
+        <name>SetMeasStage__c</name>
+    </fields>
+    <layouts>
+        <layout>DCCA LeTS Measure Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Update DCCA LeTS Measure --></label>
+        <name>DCCA_LeTS_Main_View</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- HTDivUpdtbyMeas --></label>
+        <name>HTDivUpdtbyMeas</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LeTSMeasEmailUpdt1 --></label>
+        <name>LeTSMeasEmailUpdt1</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LeTSMeasEmailUpdt2 --></label>
+        <name>LeTSMeasEmailUpdt2</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LeTSMeasMailLinkUpdt --></label>
+        <name>LeTSMeasMailLinkUpdt</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LeTSMeasMailLinkUpdt2 --></label>
+        <name>LeTSMeasMailLinkUpdt2</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Files Record --></label>
+        <name>Files_Record</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

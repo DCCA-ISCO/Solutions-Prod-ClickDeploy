@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://hawaiioimt.sharepoint.com/teams/DCCASolution/LeTS/_layouts/15/OAuthAuthorize.aspx</authorizeUrl>
+    <consumerKey>d3a8d3c9-2d53-4837-927f-bff70d087fbc</consumerKey>
+    <consumerSecret>BQ8zd7d5KN9dKL2np7vj4MOcFhBi5zfMxPn7DwnTVcWzzQpHtdQDFQ==</consumerSecret>
+    <friendlyName>SharePointOnline</friendlyName>
+    <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
+    <providerType>MicrosoftACS</providerType>
+    <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <sendSecretInApis>true</sendSecretInApis>
+    <tokenUrl>https://accounts.accesscontrol.windows.net/hawaiioimt.onmicrosoft.com/tokens/OAuth/2?resource=00000003-0000-0ff1-ce00-000000000000/hawaiioimt.sharepoint.com@hawaiioimt.onmicrosoft.com</tokenUrl>
+</AuthProvider>

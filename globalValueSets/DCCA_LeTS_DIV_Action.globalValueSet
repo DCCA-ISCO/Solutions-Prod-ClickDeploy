@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Track</fullName>
+        <default>false</default>
+        <label>Track</label>
+    </customValue>
+    <customValue>
+        <fullName>Testimony_Comments</fullName>
+        <default>false</default>
+        <label>Testimony_Comments</label>
+    </customValue>
+    <customValue>
+        <fullName>Testimony_Oppose</fullName>
+        <default>false</default>
+        <label>Testimony_Oppose</label>
+    </customValue>
+    <customValue>
+        <fullName>Testimony_Support</fullName>
+        <default>false</default>
+        <label>Testimony_Support</label>
+    </customValue>
+    <masterLabel>DCCA LeTS DIV Action</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

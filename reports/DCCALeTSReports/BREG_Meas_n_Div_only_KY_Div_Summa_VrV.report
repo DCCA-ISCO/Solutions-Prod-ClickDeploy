@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_DIV__c</field>
+    </columns>
+    <columns>
+        <field>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Keyword__c</field>
+    </columns>
+    <columns>
+        <field>DCCA_LeTS_Measure_Main__c.DCCA_LeTS_Meas_Desc__c</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_DATE</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_DIV__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>BREG</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Meas_Baseid__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>BREG Meas Div Keyword Rpt</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntityCustomEntity$DCCA_LeTS_Measure_Main__c$DCCA_LeTS_Div_Keyword__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,7 @@
+Everyone,
+
+{!DCCA_LeTS_Measure_Main__c.DCCA_LeTS_Meas_Identifier__c} has been added to LeTS.
+
+
+Use this link to view the measure on LeTS: {!DCCA_LeTS_Measure_Main__c.Link} 
+ for {!DCCA_LeTS_Measure_Main__c.Name}

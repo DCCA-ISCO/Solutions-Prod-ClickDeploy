@@ -1,0 +1,7 @@
+{!DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_HT_DIV3__c}  Testimony status for {!DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_CmteMtgInfo__c} changed to {!DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_HT_DIV3_Testimony_Status__c}.
+
+Please take appropriate steps based on the Testimony Status and check Notes.
+
+Use this link to access Hearings and Testimony record - {!DCCA_LeTS_Hearings_Testimony__c.Link}
+
+Use this link to access the related Measure - {!DCCA_LeTS_Measure_Main__c.Link}

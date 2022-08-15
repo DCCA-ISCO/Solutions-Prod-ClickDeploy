@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DCCA DO Referral</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DCCA DO Referrals</value>
+    </caseValues>
+    <fields>
+        <label><!-- Action --></label>
+        <name>Action__c</name>
+        <picklistValues>
+            <masterLabel>Appropriate action</masterLabel>
+            <translation><!-- Appropriate action --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comment/recommendation</masterLabel>
+            <translation><!-- Comment/recommendation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Reply, cc: Director or Submit Report of Direct Contact</masterLabel>
+            <translation><!-- Direct Reply, cc: Director or Submit Report of Direct Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct reply, bc Governor and Director</masterLabel>
+            <translation><!-- Direct reply, bc Governor and Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct reply, cc Governor and bc Director</masterLabel>
+            <translation><!-- Direct reply, cc Governor and bc Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct reply, copy to Director</masterLabel>
+            <translation><!-- Direct reply, copy to Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft reply for Director</masterLabel>
+            <translation><!-- Draft reply for Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft reply for Governor</masterLabel>
+            <translation><!-- Draft reply for Governor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft reply for Lt. Governor</masterLabel>
+            <translation><!-- Draft reply for Lt. Governor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FYI</masterLabel>
+            <translation><!-- FYI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow up/status update</masterLabel>
+            <translation><!-- Follow up/status update --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submit Report of Contact</masterLabel>
+            <translation><!-- Submit Report of Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submit Report of Direct Contact</masterLabel>
+            <translation><!-- Submit Report of Direct Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submit copy of response</masterLabel>
+            <translation><!-- Submit copy of response --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Additional Information --></label>
+        <name>Additional_Information__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of business days from when the referral was received from the constituent and when it closed --></help>
+        <label><!-- Age --></label>
+        <name>Age__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the number of days before the referral due date to start sending out reminder emails --></help>
+        <label><!-- Alarm Days before Due Date --></label>
+        <name>Alarm_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alarm Frequency --></label>
+        <name>Alarm_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Once Only</masterLabel>
+            <translation><!-- Once Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Once per Day</masterLabel>
+            <translation><!-- Once per Day --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CLOSED --></label>
+        <name>CLOSED__c</name>
+    </fields>
+    <fields>
+        <label><!-- Constituent --></label>
+        <name>Constituent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cor Type --></label>
+        <name>Cor_Type__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fax</masterLabel>
+            <translation><!-- Fax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letter</masterLabel>
+            <translation><!-- Letter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DCCA DO Mail List Match2 --></label>
+        <name>DCCA_DO_Mail_List_Match2__c</name>
+        <relationshipLabel><!-- DCCA DO Referrals (DCCA DO Mail List Match2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DCCA DO Mail List Match --></label>
+        <name>DCCA_DO_Mail_List_Match__c</name>
+        <relationshipLabel><!-- DCCA DO Referrals Mail List --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DIV Assigned Team Member --></label>
+        <name>DIV_Assigned__c</name>
+    </fields>
+    <fields>
+        <label><!-- DIV Readers --></label>
+        <name>DIV_Readers__c</name>
+        <picklistValues>
+            <masterLabel>ASO-Admin</masterLabel>
+            <translation><!-- ASO-Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASO-Fiscal</masterLabel>
+            <translation><!-- ASO-Fiscal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASO-Staff</masterLabel>
+            <translation><!-- ASO-Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BREG-Admin</masterLabel>
+            <translation><!-- BREG-Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BREG-BAC</masterLabel>
+            <translation><!-- BREG-BAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BREG-DOCI</masterLabel>
+            <translation><!-- BREG-DOCI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BREG-DOCP</masterLabel>
+            <translation><!-- BREG-DOCP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BREG-Office Services</masterLabel>
+            <translation><!-- BREG-Office Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BREG-Records</masterLabel>
+            <translation><!-- BREG-Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BREG-SEB</masterLabel>
+            <translation><!-- BREG-SEB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BREG-SEC</masterLabel>
+            <translation><!-- BREG-SEC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BREG-Staff</masterLabel>
+            <translation><!-- BREG-Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CATV-Staff</masterLabel>
+            <translation><!-- CATV-Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DCA-Staff</masterLabel>
+            <translation><!-- DCA-Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DCCA-Staff</masterLabel>
+            <translation><!-- DCCA-Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DFI-Staff</masterLabel>
+            <translation><!-- DFI-Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DO-Admin</masterLabel>
+            <translation><!-- DO-Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DO-Personnel</masterLabel>
+            <translation><!-- DO-Personnel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DO-Staff</masterLabel>
+            <translation><!-- DO-Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS-Admin</masterLabel>
+            <translation><!-- INS-Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS-Captive</masterLabel>
+            <translation><!-- INS-Captive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS-FSE</masterLabel>
+            <translation><!-- INS-FSE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS-Fraud</masterLabel>
+            <translation><!-- INS-Fraud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS-Health</masterLabel>
+            <translation><!-- INS-Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS-Investigation</masterLabel>
+            <translation><!-- INS-Investigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS-Legal</masterLabel>
+            <translation><!-- INS-Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS-Licensing</masterLabel>
+            <translation><!-- INS-Licensing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS-Office Services</masterLabel>
+            <translation><!-- INS-Office Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS-RPA</masterLabel>
+            <translation><!-- INS-RPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS-Staff</masterLabel>
+            <translation><!-- INS-Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISCO-Staff</masterLabel>
+            <translation><!-- ISCO-Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OAH-Staff</masterLabel>
+            <translation><!-- OAH-Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OCP-Admin</masterLabel>
+            <translation><!-- OCP-Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OCP-Investigation</masterLabel>
+            <translation><!-- OCP-Investigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OCP-Legal</masterLabel>
+            <translation><!-- OCP-Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OCP-Staff</masterLabel>
+            <translation><!-- OCP-Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PVL-Admin</masterLabel>
+            <translation><!-- PVL-Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PVL-EO</masterLabel>
+            <translation><!-- PVL-EO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PVL-Exam</masterLabel>
+            <translation><!-- PVL-Exam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PVL-License Applications</masterLabel>
+            <translation><!-- PVL-License Applications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PVL-License Records</masterLabel>
+            <translation><!-- PVL-License Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PVL-REB</masterLabel>
+            <translation><!-- PVL-REB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PVL-Staff</masterLabel>
+            <translation><!-- PVL-Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RICO-Admin</masterLabel>
+            <translation><!-- RICO-Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RICO-CRC</masterLabel>
+            <translation><!-- RICO-CRC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RICO-Investigation</masterLabel>
+            <translation><!-- RICO-Investigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RICO-Legal</masterLabel>
+            <translation><!-- RICO-Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RICO-Staff</masterLabel>
+            <translation><!-- RICO-Staff --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DOC DATE --></label>
+        <name>DOC_DATE__c</name>
+    </fields>
+    <fields>
+        <help><!-- Negative number of business days to close the referral means Early, Positive number of business days to close means Overdue. --></help>
+        <label><!-- Days Overdue or Early --></label>
+        <name>Days_Overdue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used when an additional Division is involved with the referral. --></help>
+        <label><!-- Division 2 --></label>
+        <name>Division_2__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BREG</masterLabel>
+            <translation><!-- BREG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CATV</masterLabel>
+            <translation><!-- CATV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DCA</masterLabel>
+            <translation><!-- DCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DFI</masterLabel>
+            <translation><!-- DFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DO</masterLabel>
+            <translation><!-- DO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HPEAP</masterLabel>
+            <translation><!-- HPEAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS</masterLabel>
+            <translation><!-- INS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISCO</masterLabel>
+            <translation><!-- ISCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OAH</masterLabel>
+            <translation><!-- OAH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OCP</masterLabel>
+            <translation><!-- OCP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUC</masterLabel>
+            <translation><!-- PUC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PVL</masterLabel>
+            <translation><!-- PVL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RICO</masterLabel>
+            <translation><!-- RICO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select primary Division for this referral --></help>
+        <label><!-- Division --></label>
+        <name>Division__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BREG</masterLabel>
+            <translation><!-- BREG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CATV</masterLabel>
+            <translation><!-- CATV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DCA</masterLabel>
+            <translation><!-- DCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DFI</masterLabel>
+            <translation><!-- DFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DO</masterLabel>
+            <translation><!-- DO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HPEAP</masterLabel>
+            <translation><!-- HPEAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INS</masterLabel>
+            <translation><!-- INS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISCO</masterLabel>
+            <translation><!-- ISCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OAH</masterLabel>
+            <translation><!-- OAH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OCP</masterLabel>
+            <translation><!-- OCP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUC</masterLabel>
+            <translation><!-- PUC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PVL</masterLabel>
+            <translation><!-- PVL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RICO</masterLabel>
+            <translation><!-- RICO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the uploaded file name for the response and provide comments like &quot;Draft for Review&quot; or &quot;Final Response&quot;.  Use Send to Director button when ready. --></help>
+        <label><!-- Divsion Response --></label>
+        <name>Divsion_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date DO --></label>
+        <name>Due_Date_DO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date Gov --></label>
+        <name>Due_Date_Gov__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email DIV2 CC2 --></label>
+        <name>Email_DIV2_CC2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email DIV2 CC3 --></label>
+        <name>Email_DIV2_CC3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email DIV2 CC --></label>
+        <name>Email_DIV2_CC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email DIV2 Primary2 --></label>
+        <name>Email_DIV2_Primary2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email DIV2 Primary3 --></label>
+        <name>Email_DIV2_Primary3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email DIV2 Primary --></label>
+        <name>Email_DIV2_Primary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email DIV CC2 --></label>
+        <name>Email_DIV_CC2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email DIV CC3 --></label>
+        <name>Email_DIV_CC3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email DIV Primary2 --></label>
+        <name>Email_DIV_Primary2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email DIV Primary3 --></label>
+        <name>Email_DIV_Primary3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email DIV Primary --></label>
+        <name>Email_DIV_Primary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email DIV CC --></label>
+        <name>Email_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- DATE RECEIVED --></label>
+        <name>FROM_CONST__c</name>
+    </fields>
+    <fields>
+        <label><!-- FROM DIV --></label>
+        <name>FROM_DO__c</name>
+    </fields>
+    <fields>
+        <label><!-- FROM GOV --></label>
+        <name>FROM_GOV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overdue Status --></label>
+        <name>Overdue_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Referral NO value used as the first part of response file names and for the referral folder in Sharepoint. --></help>
+        <label><!-- Referral NO --></label>
+        <name>Referral_NO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- TO DIV --></label>
+        <name>TO_DO__c</name>
+    </fields>
+    <fields>
+        <label><!-- TO GOV --></label>
+        <name>TO_GOV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>Year__c</name>
+    </fields>
+    <layouts>
+        <layout>DCCA DO Ref DIV Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Director Office Section --></label>
+            <section>Director Office Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DCCA DO Referral Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Director Office Section --></label>
+            <section>Director Office Section</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Division View of DCCA DO Referrals --></description>
+        <label><!-- DCCA DIV Record --></label>
+        <name>DCCA_DIV_Record</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Director&apos;s Office section --></description>
+        <label><!-- DCCA DO Record --></label>
+        <name>DCCA_DO_Record</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- DO_Ref_Email --></label>
+        <name>DO_Ref_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

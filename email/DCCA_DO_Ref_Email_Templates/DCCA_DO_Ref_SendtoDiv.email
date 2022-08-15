@@ -1,0 +1,9 @@
+Division(s) - {!DCCA_DO_Referral__c.Division__c} {!DCCA_DO_Referral__c.Division_2__c} 
+
+{!DCCA_DO_Ref_History_Comment__c.DCCA_Comment_Date__c}                       
+{!DCCA_DO_Ref_History_Comment__c.DCCA_Comment_Text__c}                       
+
+DCCA Referral Number: {!DCCA_DO_Referral__c.Referral_NO__c}                     
+DCCA Constituent: {!DCCA_DO_Referral__c.Constituent__c}                               
+
+Referral link: {!DCCA_DO_Referral__c.Link}

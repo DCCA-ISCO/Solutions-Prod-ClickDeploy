@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DCCA DO Mail List</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DCCA DO Mail Lists</value>
+    </caseValues>
+    <fields>
+        <label><!-- DCCA DIV CC Addr2 --></label>
+        <name>DCCA_DIV_CC_Addr2__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA DIV CC Addr3 --></label>
+        <name>DCCA_DIV_CC_Addr3__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA DIV CC Addr --></label>
+        <name>DCCA_DIV_CC_Addr__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA DIV Primary Addr2 --></label>
+        <name>DCCA_DIV_Primary_Addr2__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA DIV Primary Addr3 --></label>
+        <name>DCCA_DIV_Primary_Addr3__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA DIV Primary Addr --></label>
+        <name>DCCA_DIV_Primary_Addr__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA Division ML --></label>
+        <name>DCCA_Division_ML__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA Leg-ASO --></label>
+        <name>DCCA_Leg_ASO__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA Leg All --></label>
+        <name>DCCA_Leg_All__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA Leg-BREG --></label>
+        <name>DCCA_Leg_BREG__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA Leg-CATV --></label>
+        <name>DCCA_Leg_CATV__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA Leg-Coordinators --></label>
+        <name>DCCA_Leg_Coordinators__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA Leg-DCA --></label>
+        <name>DCCA_Leg_DCA__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA Leg-DFI --></label>
+        <name>DCCA_Leg_DFI__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA Leg-DO --></label>
+        <name>DCCA_Leg_DO__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA Leg-HPEAP --></label>
+        <name>DCCA_Leg_HPEAP__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA Leg-INS --></label>
+        <name>DCCA_Leg_INS__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA Leg-ISCO --></label>
+        <name>DCCA_Leg_ISCO__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA Leg-OAH --></label>
+        <name>DCCA_Leg_OAH__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA Leg-OCP --></label>
+        <name>DCCA_Leg_OCP__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA Leg-PVL --></label>
+        <name>DCCA_Leg_PVL__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA Leg-RICO --></label>
+        <name>DCCA_Leg_RICO__c</name>
+    </fields>
+    <layouts>
+        <layout>DCCA DO Mail List Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

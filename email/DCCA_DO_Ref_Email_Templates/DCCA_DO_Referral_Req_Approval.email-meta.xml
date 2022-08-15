@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>DCCA Director&apos;s Office Referral Division Response or Question</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>DCCA DO Referral Req Approval</name>
+    <style>none</style>
+    <subject>DOR - DCCA DO Referral - Division response</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

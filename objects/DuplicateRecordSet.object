@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>DuplicateRuleId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RecordCount</fullName>
+    </fields>
+    <listViews>
+        <fullName>DCCA_LeTS_Div_Keyword_Feb_6_2022_8_55_A</fullName>
+        <columns>Name</columns>
+        <columns>Parent</columns>
+        <columns>RecordCount</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Parent</field>
+            <operation>equals</operation>
+            <value>&quot;DCCA LeTS Div Keyword Feb 6, 2022 8:55 AM&quot;</value>
+        </filters>
+        <label>DCCA LeTS Div Keyword Feb 6, 2022 8:55 A</label>
+    </listViews>
+    <listViews>
+        <fullName>DCCA_LeTS_Hearings_Testimony_Feb_23_202</fullName>
+        <columns>Name</columns>
+        <columns>RecordCount</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Parent</field>
+            <operation>equals</operation>
+            <value>&quot;DCCA LeTS Hearings_Testimony Feb 23, 2022 11:40 AM&quot;</value>
+        </filters>
+        <label>DCCA LeTS Hearings_Testimony Feb 23, 202</label>
+    </listViews>
+    <listViews>
+        <fullName>DCCA_LeTS_Hearings_Testimony_Feb_9_2022</fullName>
+        <columns>Name</columns>
+        <columns>RecordCount</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Parent</field>
+            <operation>equals</operation>
+            <value>&quot;DCCA LeTS Hearings_Testimony Feb 9, 2022 11:28 AM&quot;</value>
+        </filters>
+        <label>DCCA LeTS Hearings_Testimony Feb 9, 2022</label>
+    </listViews>
+</CustomObject>
