@@ -2391,12 +2391,9 @@
         <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
 &amp;serverUrl={!API.Partner_Server_URL_370}
 &amp;Id={!OAH_Case_List__c.Id}
-
 &amp;QueryId=[FilingParty]0Q_000EAE385315,
 [RelatedCases]0Q_001EAE680644
-
 &amp;TemplateId=0T_000EAE817868
-
 &amp;DefaultPDF=1
 &amp;OFN=Docket%20Sheet
 &amp;DS7=11</url>

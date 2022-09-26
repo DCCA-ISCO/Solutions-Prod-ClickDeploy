@@ -4,7 +4,7 @@
         <name>DORAssignDiv</name>
         <label>DORAssignDiv</label>
         <locationX>50</locationX>
-        <locationY>648</locationY>
+        <locationY>408</locationY>
         <actionName>DCCA_DO_Referral__c.DCCA_DO_Ref_Send_to_Division</actionName>
         <actionType>emailAlert</actionType>
         <connector>
@@ -22,7 +22,7 @@
         <name>DORAssignDiv2</name>
         <label>DORAssignDiv2</label>
         <locationX>50</locationX>
-        <locationY>1224</locationY>
+        <locationY>744</locationY>
         <actionName>DCCA_DO_Referral__c.DCCA_DO_Ref_Send_to_Division2</actionName>
         <actionType>emailAlert</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -36,10 +36,13 @@
     <actionCalls>
         <name>DORRemind2Div</name>
         <label>DORRemind2Div</label>
-        <locationX>1370</locationX>
+        <locationX>1106</locationX>
         <locationY>408</locationY>
         <actionName>DCCA_DO_Referral__c.DCCA_DO_Referral_Due_Reminder</actionName>
         <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>Div2Remind2_0</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>SObjectRowId</name>
@@ -49,10 +52,10 @@
         </inputParameters>
     </actionCalls>
     <actionCalls>
-        <name>DORRemind2Div2</name>
+        <name>DORRemind2Div2_0</name>
         <label>DORRemind2Div2</label>
-        <locationX>1810</locationX>
-        <locationY>408</locationY>
+        <locationX>1106</locationX>
+        <locationY>744</locationY>
         <actionName>DCCA_DO_Referral__c.DCCA_DO_Referral_Due_Reminder2</actionName>
         <actionType>emailAlert</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -66,10 +69,13 @@
     <actionCalls>
         <name>DORRemind3Div</name>
         <label>DORRemind3Div</label>
-        <locationX>2250</locationX>
+        <locationX>1634</locationX>
         <locationY>408</locationY>
         <actionName>DCCA_DO_Referral__c.DCCA_DO_Referral_Due_Reminder</actionName>
         <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>Div2Remind3_0</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>SObjectRowId</name>
@@ -79,10 +85,10 @@
         </inputParameters>
     </actionCalls>
     <actionCalls>
-        <name>DORRemind3Div2</name>
+        <name>DORRemind3Div2_0</name>
         <label>DORRemind3Div2</label>
-        <locationX>2690</locationX>
-        <locationY>408</locationY>
+        <locationX>1634</locationX>
+        <locationY>744</locationY>
         <actionName>DCCA_DO_Referral__c.DCCA_DO_Referral_Due_Reminder2</actionName>
         <actionType>emailAlert</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -94,10 +100,10 @@
         </inputParameters>
     </actionCalls>
     <actionCalls>
-        <name>DORRemindDiv2_0</name>
+        <name>DORRemindDiv2_0_0</name>
         <label>DORRemindDiv2</label>
-        <locationX>930</locationX>
-        <locationY>408</locationY>
+        <locationX>578</locationX>
+        <locationY>744</locationY>
         <actionName>DCCA_DO_Referral__c.DCCA_DO_Referral_Due_Reminder2</actionName>
         <actionType>emailAlert</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -111,10 +117,13 @@
     <actionCalls>
         <name>DORRemindDiv_0</name>
         <label>DORRemindDiv</label>
-        <locationX>490</locationX>
+        <locationX>578</locationX>
         <locationY>408</locationY>
         <actionName>DCCA_DO_Referral__c.DCCA_DO_Referral_Due_Reminder</actionName>
         <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>Div2Remind_0</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>SObjectRowId</name>
@@ -128,68 +137,39 @@
         <name>Div2Chg</name>
         <label>Div2Chg</label>
         <locationX>182</locationX>
-        <locationY>864</locationY>
+        <locationY>624</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>SetupDiv2</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>$Record.Division_2__c</leftValueReference>
-                <operator>IsChanged</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
                 <leftValueReference>$Record.Status__c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>Pending</stringValue>
                 </rightValue>
             </conditions>
+            <conditions>
+                <leftValueReference>$Record.Division_2__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
             <connector>
-                <targetReference>DCCA_DO_Ref_get_Mail_Match_Div</targetReference>
+                <targetReference>DORAssignDiv2</targetReference>
             </connector>
             <label>SetupDiv2</label>
         </rules>
     </decisions>
     <decisions>
-        <name>Div2Remind</name>
-        <label>Div2Remind</label>
-        <locationX>1062</locationX>
-        <locationY>288</locationY>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>SetupDiv2Remind</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Division_2__c</leftValueReference>
-                <operator>WasSet</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Status__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Pending</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>DORRemindDiv2_0</targetReference>
-            </connector>
-            <label>SetupDiv2Remind</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>Div2Remind2</name>
+        <name>Div2Remind2_0</name>
         <label>Div2Remind2</label>
-        <locationX>1942</locationX>
-        <locationY>288</locationY>
+        <locationX>1238</locationX>
+        <locationY>624</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
-            <name>SetupDiv2Remind2</name>
+            <name>SetupDiv2Remind2_0</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.Division_2__c</leftValueReference>
@@ -206,19 +186,19 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>DORRemind2Div2</targetReference>
+                <targetReference>DORRemind2Div2_0</targetReference>
             </connector>
             <label>SetupDiv2Remind2</label>
         </rules>
     </decisions>
     <decisions>
-        <name>Div2Remind3</name>
+        <name>Div2Remind3_0</name>
         <label>Div2Remind3</label>
-        <locationX>2822</locationX>
-        <locationY>288</locationY>
+        <locationX>1766</locationX>
+        <locationY>624</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
-            <name>SetupDiv2Remind3</name>
+            <name>SetupDiv2Remind3_0</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.Division_2__c</leftValueReference>
@@ -235,9 +215,38 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>DORRemind3Div2</targetReference>
+                <targetReference>DORRemind3Div2_0</targetReference>
             </connector>
             <label>SetupDiv2Remind3</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Div2Remind_0</name>
+        <label>Div2Remind</label>
+        <locationX>710</locationX>
+        <locationY>624</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>SetupDiv2Remind_0</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Division_2__c</leftValueReference>
+                <operator>WasSet</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pending</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>DORRemindDiv2_0_0</targetReference>
+            </connector>
+            <label>SetupDiv2Remind</label>
         </rules>
     </decisions>
     <decisions>
@@ -253,21 +262,21 @@
             <name>SetupDiv</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>$Record.Division__c</leftValueReference>
-                <operator>IsChanged</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
                 <leftValueReference>$Record.Status__c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>Pending</stringValue>
                 </rightValue>
             </conditions>
+            <conditions>
+                <leftValueReference>$Record.Division__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
             <connector>
-                <targetReference>DCCA_DO_Ref_get_Mail_Match_Div_0</targetReference>
+                <targetReference>DORAssignDiv</targetReference>
             </connector>
             <label>SetupDiv</label>
         </rules>
@@ -275,8 +284,11 @@
     <decisions>
         <name>DivRemind</name>
         <label>DivRemind</label>
-        <locationX>622</locationX>
+        <locationX>710</locationX>
         <locationY>288</locationY>
+        <defaultConnector>
+            <targetReference>Div2Remind_0</targetReference>
+        </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>SetupDivRemind</name>
@@ -304,8 +316,11 @@
     <decisions>
         <name>DivRemind2</name>
         <label>DivRemind2</label>
-        <locationX>1502</locationX>
+        <locationX>1238</locationX>
         <locationY>288</locationY>
+        <defaultConnector>
+            <targetReference>Div2Remind2_0</targetReference>
+        </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>SetupDivRemind2</name>
@@ -333,8 +348,11 @@
     <decisions>
         <name>DivRemind3</name>
         <label>DivRemind3</label>
-        <locationX>2382</locationX>
+        <locationX>1766</locationX>
         <locationY>288</locationY>
+        <defaultConnector>
+            <targetReference>Div2Remind3_0</targetReference>
+        </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>SetupDivRemind3</name>
@@ -360,6 +378,11 @@
         </rules>
     </decisions>
     <description>Whenever Division is added or changed</description>
+    <formulas>
+        <name>SetDiv2Null</name>
+        <dataType>String</dataType>
+        <expression>NULL</expression>
+    </formulas>
     <interviewLabel>DCCA DO Ref Division Changed {!$Flow.CurrentDateTime}</interviewLabel>
     <label>DCCA DO Ref Division Changed</label>
     <processMetadataValues>
@@ -381,158 +404,8 @@
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
-    <recordLookups>
-        <name>DCCA_DO_Ref_get_Mail_Match_Div</name>
-        <label>DCCA DO Ref get Mail Match Div</label>
-        <locationX>50</locationX>
-        <locationY>984</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>DCCA_DO_Ref_Email_addrs</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>DCCA_Division_ML__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>$Record.Division_2__c</elementReference>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>DCCA_DO_Mail_List__c</object>
-        <queriedFields>Id</queriedFields>
-        <queriedFields>Name</queriedFields>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
-    <recordLookups>
-        <name>DCCA_DO_Ref_get_Mail_Match_Div_0</name>
-        <label>DCCA DO Ref get Mail Match Div</label>
-        <locationX>50</locationX>
-        <locationY>408</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>DCCA_DO_Ref_Email_addrs_0</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>DCCA_Division_ML__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>$Record.Division__c</elementReference>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>DCCA_DO_Mail_List__c</object>
-        <queriedFields>Id</queriedFields>
-        <queriedFields>Name</queriedFields>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
-    <recordUpdates>
-        <name>DCCA_DO_Ref_Email_addrs</name>
-        <label>DCCA DO Ref Email addrs</label>
-        <locationX>50</locationX>
-        <locationY>1104</locationY>
-        <connector>
-            <targetReference>DORAssignDiv2</targetReference>
-        </connector>
-        <inputAssignments>
-            <field>DCCA_DO_Mail_List_Match2__c</field>
-            <value>
-                <elementReference>DORMLName</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Email_DIV2_CC2__c</field>
-            <value>
-                <elementReference>$Record.DCCA_DO_Mail_List_Match__r.DCCA_DIV_CC_Addr2__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Email_DIV2_CC3__c</field>
-            <value>
-                <elementReference>$Record.DCCA_DO_Mail_List_Match__r.DCCA_DIV_CC_Addr3__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Email_DIV2_CC__c</field>
-            <value>
-                <elementReference>$Record.DCCA_DO_Mail_List_Match__r.DCCA_DIV_CC_Addr__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Email_DIV2_Primary2__c</field>
-            <value>
-                <elementReference>$Record.DCCA_DO_Mail_List_Match__r.DCCA_DIV_Primary_Addr2__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Email_DIV2_Primary3__c</field>
-            <value>
-                <elementReference>$Record.DCCA_DO_Mail_List_Match__r.DCCA_DIV_Primary_Addr3__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Email_DIV2_Primary__c</field>
-            <value>
-                <elementReference>$Record.DCCA_DO_Mail_List_Match__r.DCCA_DIV_Primary_Addr__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputReference>$Record</inputReference>
-    </recordUpdates>
-    <recordUpdates>
-        <name>DCCA_DO_Ref_Email_addrs_0</name>
-        <label>DCCA DO Ref Email addrs</label>
-        <locationX>50</locationX>
-        <locationY>528</locationY>
-        <connector>
-            <targetReference>DORAssignDiv</targetReference>
-        </connector>
-        <inputAssignments>
-            <field>DCCA_DO_Mail_List_Match__c</field>
-            <value>
-                <elementReference>DORMLName</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Email_DIV_CC2__c</field>
-            <value>
-                <elementReference>$Record.DCCA_DO_Mail_List_Match__r.DCCA_DIV_CC_Addr2__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Email_DIV_CC3__c</field>
-            <value>
-                <elementReference>$Record.DCCA_DO_Mail_List_Match__r.DCCA_DIV_CC_Addr3__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Email_DIV_Primary2__c</field>
-            <value>
-                <elementReference>$Record.DCCA_DO_Mail_List_Match__r.DCCA_DIV_Primary_Addr2__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Email_DIV_Primary3__c</field>
-            <value>
-                <elementReference>$Record.DCCA_DO_Mail_List_Match__r.DCCA_DIV_Primary_Addr3__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Email_DIV_Primary__c</field>
-            <value>
-                <elementReference>$Record.DCCA_DO_Mail_List_Match__r.DCCA_DIV_Primary_Addr__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Email_Field__c</field>
-            <value>
-                <elementReference>$Record.DCCA_DO_Mail_List_Match__r.DCCA_DIV_CC_Addr__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputReference>$Record</inputReference>
-    </recordUpdates>
     <start>
-        <locationX>1376</locationX>
+        <locationX>848</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>DivChg</targetReference>
@@ -559,33 +432,11 @@
             <timeSource>RecordField</timeSource>
         </scheduledPaths>
         <scheduledPaths>
-            <name>DORDiv2Reminder</name>
-            <connector>
-                <targetReference>Div2Remind</targetReference>
-            </connector>
-            <label>DORDiv2Reminder</label>
-            <offsetNumber>-2</offsetNumber>
-            <offsetUnit>Days</offsetUnit>
-            <recordField>Due_Date_DO__c</recordField>
-            <timeSource>RecordField</timeSource>
-        </scheduledPaths>
-        <scheduledPaths>
             <name>DORDivReminder2</name>
             <connector>
                 <targetReference>DivRemind2</targetReference>
             </connector>
             <label>DORDivReminder2</label>
-            <offsetNumber>-1</offsetNumber>
-            <offsetUnit>Days</offsetUnit>
-            <recordField>Due_Date_DO__c</recordField>
-            <timeSource>RecordField</timeSource>
-        </scheduledPaths>
-        <scheduledPaths>
-            <name>DORDiv2Reminder2</name>
-            <connector>
-                <targetReference>Div2Remind2</targetReference>
-            </connector>
-            <label>DORDiv2Reminder2</label>
             <offsetNumber>-1</offsetNumber>
             <offsetUnit>Days</offsetUnit>
             <recordField>Due_Date_DO__c</recordField>
@@ -602,26 +453,7 @@
             <recordField>Due_Date_DO__c</recordField>
             <timeSource>RecordField</timeSource>
         </scheduledPaths>
-        <scheduledPaths>
-            <name>DORDiv2Reminder3</name>
-            <connector>
-                <targetReference>Div2Remind3</targetReference>
-            </connector>
-            <label>DORDiv2Reminder3</label>
-            <offsetNumber>0</offsetNumber>
-            <offsetUnit>Days</offsetUnit>
-            <recordField>Due_Date_DO__c</recordField>
-            <timeSource>RecordField</timeSource>
-        </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
-    <variables>
-        <name>DORMLName</name>
-        <dataType>Number</dataType>
-        <isCollection>false</isCollection>
-        <isInput>true</isInput>
-        <isOutput>true</isOutput>
-        <scale>0</scale>
-    </variables>
+    <status>Active</status>
 </Flow>

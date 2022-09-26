@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>RowCount / PARENTGROUPVAL(RowCount, GRAND_SUMMARY)</calculatedFormula>
+        <datatype>percent</datatype>
+        <description>Row Count Total</description>
+        <developerName>FORMULA1</developerName>
+        <downGroupingContext>OAH_Case_List__c.Division_Agency__c</downGroupingContext>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Percentage</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>CHILD_NAME</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>OAH_Case_List__c.Division_Agency__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>DCCA Divisions Referring Matters to OAH</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntityCustomEntity$OAH_Case_List__c$OAH_Event__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CHILD_CREATED_DATE</dateColumn>
+        <endDate>2022-06-30</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2021-07-01</startDate>
+    </timeFrameFilter>
+</Report>

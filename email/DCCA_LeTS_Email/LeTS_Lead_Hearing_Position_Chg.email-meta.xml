@@ -4,7 +4,7 @@
     <encodingKey>ISO-8859-1</encodingKey>
     <name>LeTS Lead Hearing Position Chg</name>
     <style>none</style>
-    <subject>LeTS - ATTENTION - Hearing Position Chg for {!DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_CmteMtgInfo__c}</subject>
+    <subject>LeTS - ATTENTION - Hearing Position Chg for {!DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_HT_DIV_Lead__c} {!DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_HT_Cmte_Mtg_Notice__c}</subject>
     <type>text</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>

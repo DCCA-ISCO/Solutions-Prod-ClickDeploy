@@ -32,7 +32,8 @@
             <recipient>kdobrowo@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_DO_Ref_Email_Templates/DCCA_DO_Ref_SendtoDiv</template>
     </alerts>
     <alerts>
@@ -55,7 +56,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_DO_Ref_Email_Templates/DCCA_DO_Ref_SendtoDO</template>
     </alerts>
     <alerts>
@@ -90,7 +92,8 @@
             <recipient>kdobrowo@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_DO_Ref_Email_Templates/DCCA_DO_Ref_SendtoDiv</template>
     </alerts>
     <fieldUpdates>

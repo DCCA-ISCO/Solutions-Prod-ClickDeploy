@@ -102,115 +102,263 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>DCCA_LeTS_Meas_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>SolutionManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Meas_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>StandardAul</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
         <formFactor>Small</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>StandardAul</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>StandardAul</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>OAH Standard Platform</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Meas_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Meas_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Platform Starter LeTS User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Platform Starter LeTS User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.CurrentHT</recordType>
         <type>Flexipage</type>
         <profile>LeTS Standard User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.CurrentHT</recordType>
         <type>Flexipage</type>
         <profile>LeTS Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.CurrentHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus DO_LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.CurrentHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus DO_LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.CurrentHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.CurrentHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.CurrentHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Div_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.CurrentHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Div_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.CurrentHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Ref_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.CurrentHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Ref_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.CurrentHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter LeTS User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.CurrentHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter LeTS User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.CurrentHT</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.CurrentHT</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.PRIORHT</recordType>
+        <type>Flexipage</type>
+        <profile>LeTS Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.PRIORHT</recordType>
+        <type>Flexipage</type>
+        <profile>LeTS Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.PRIORHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus DO_LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.PRIORHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus DO_LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.PRIORHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.PRIORHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.PRIORHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Div_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.PRIORHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Div_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.PRIORHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Ref_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.PRIORHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Ref_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.PRIORHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter LeTS User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.PRIORHT</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter LeTS User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.PRIORHT</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Hearings_and_Testimony_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Hearings_Testimony__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.PRIORHT</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Meas_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -270,14 +418,6 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>OAH Standard Platform</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
         <content>DCCA_LeTS_Meas_Page</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
@@ -358,33 +498,537 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>DCCA_LeTS_Meas_Page</content>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.CurrentDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>LeTS Leg Proposal User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.CurrentDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>LeTS Leg Proposal User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.CurrentDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>LeTS Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.CurrentDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>LeTS Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.CurrentDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus DO_LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.CurrentDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus DO_LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.CurrentDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.CurrentDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.CurrentDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Div_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.CurrentDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Div_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.CurrentDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Ref_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.CurrentDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Ref_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.CurrentDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter LeTS User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.CurrentDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter LeTS User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.CurrentDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.CurrentDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.PRIORDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>LeTS Leg Proposal User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.PRIORDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>LeTS Leg Proposal User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.PRIORDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>LeTS Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.PRIORDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>LeTS Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.PRIORDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus DO_LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.PRIORDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus DO_LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.PRIORDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.PRIORDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.PRIORDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Div_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.PRIORDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Div_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.PRIORDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Ref_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.PRIORDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Ref_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.PRIORDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter LeTS User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.PRIORDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter LeTS User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.PRIORDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Div_Keyword__c.PRIORDivKY</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>LeTS Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>LeTS Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Keyword_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_LPs_Page</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LegProposals</recordType>
         <type>Flexipage</type>
-        <profile>Standard</profile>
+        <profile>LeTS Leg Proposal User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_LPs_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LegProposals</recordType>
+        <type>Flexipage</type>
+        <profile>LeTS Leg Proposal User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_LPs_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LegProposals</recordType>
+        <type>Flexipage</type>
+        <profile>LeTS Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_LPs_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LegProposals</recordType>
+        <type>Flexipage</type>
+        <profile>LeTS Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_LPs_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LegProposals</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus DO_LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_LPs_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LegProposals</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus DO_LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_LPs_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LegProposals</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Div_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_LPs_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LegProposals</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Div_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Meas_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LeTS_Measure</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter LeTS User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
         <content>DCCA_LeTS_Meas_Page</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LeTS_Measure</recordType>
         <type>Flexipage</type>
-        <profile>StandardAul</profile>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Meas_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LeTS_Measure</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
         <content>DCCA_LeTS_Meas_Page</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.PRIORMeas</recordType>
         <type>Flexipage</type>
-        <profile>SolutionManager</profile>
+        <profile>LeTS Leg Proposal User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Meas_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.PRIORMeas</recordType>
+        <type>Flexipage</type>
+        <profile>LeTS Leg Proposal User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
         <content>DCCA_LeTS_Meas_Page</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.PRIORMeas</recordType>
+        <type>Flexipage</type>
+        <profile>LeTS Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Meas_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.PRIORMeas</recordType>
+        <type>Flexipage</type>
+        <profile>LeTS Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Meas_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.PRIORMeas</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus DO_LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Meas_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.PRIORMeas</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus DO_LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Meas_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.PRIORMeas</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Div_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Meas_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.PRIORMeas</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Div_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Meas_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.PRIORMeas</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Meas_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.PRIORMeas</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Meas_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.PRIORMeas</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Ref_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Meas_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.PRIORMeas</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Ref_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Meas_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.PRIORMeas</recordType>
         <type>Flexipage</type>
         <profile>Platform Starter LeTS User</profile>
     </profileActionOverrides>
@@ -393,22 +1037,106 @@
         <content>DCCA_LeTS_Meas_Page</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.PRIORMeas</recordType>
         <type>Flexipage</type>
         <profile>Platform Starter LeTS User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
+        <content>DCCA_LeTS_Meas_Page</content>
         <formFactor>Small</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.PRIORMeas</recordType>
         <type>Flexipage</type>
-        <profile>Standard</profile>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Meas_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.PRIORMeas</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_LPs_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LegProposals</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_LPs_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LegProposals</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_LPs_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LegProposals</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Ref_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_LPs_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LegProposals</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter DO Ref_LeTS</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_LPs_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LegProposals</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter LeTS User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_LPs_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LegProposals</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Starter LeTS User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_LPs_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LegProposals</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_LPs_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LegProposals</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
         <content>DCCA_LeTS_Meas_Page</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LeTS_Measure</recordType>
         <type>Flexipage</type>
         <profile>LeTS Leg Proposal User</profile>
     </profileActionOverrides>
@@ -417,6 +1145,7 @@
         <content>DCCA_LeTS_Meas_Page</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LeTS_Measure</recordType>
         <type>Flexipage</type>
         <profile>LeTS Leg Proposal User</profile>
     </profileActionOverrides>
@@ -425,6 +1154,25 @@
         <content>DCCA_LeTS_Meas_Page</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LeTS_Measure</recordType>
+        <type>Flexipage</type>
+        <profile>LeTS Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Meas_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LeTS_Measure</recordType>
+        <type>Flexipage</type>
+        <profile>LeTS Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Meas_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LeTS_Measure</recordType>
         <type>Flexipage</type>
         <profile>Platform Plus DO_LeTS_OAH</profile>
     </profileActionOverrides>
@@ -433,6 +1181,7 @@
         <content>DCCA_LeTS_Meas_Page</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LeTS_Measure</recordType>
         <type>Flexipage</type>
         <profile>Platform Plus DO_LeTS_OAH</profile>
     </profileActionOverrides>
@@ -441,22 +1190,7 @@
         <content>DCCA_LeTS_Meas_Page</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Platform Plus LeTS_OAH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Meas_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Platform Plus LeTS_OAH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Meas_Page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LeTS_Measure</recordType>
         <type>Flexipage</type>
         <profile>Platform Starter DO Div_LeTS</profile>
     </profileActionOverrides>
@@ -465,6 +1199,7 @@
         <content>DCCA_LeTS_Meas_Page</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LeTS_Measure</recordType>
         <type>Flexipage</type>
         <profile>Platform Starter DO Div_LeTS</profile>
     </profileActionOverrides>
@@ -473,6 +1208,25 @@
         <content>DCCA_LeTS_Meas_Page</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LeTS_Measure</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Meas_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LeTS_Measure</recordType>
+        <type>Flexipage</type>
+        <profile>Platform Plus LeTS_OAH</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DCCA_LeTS_Meas_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LeTS_Measure</recordType>
         <type>Flexipage</type>
         <profile>Platform Starter DO Ref_LeTS</profile>
     </profileActionOverrides>
@@ -481,88 +1235,18 @@
         <content>DCCA_LeTS_Meas_Page</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LeTS_Measure</recordType>
         <type>Flexipage</type>
         <profile>Platform Starter DO Ref_LeTS</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Platform Starter DO Div_LeTS</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
+        <content>DCCA_LeTS_Meas_Page</content>
         <formFactor>Small</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
+        <pageOrSobjectType>DCCA_LeTS_Measure_Main__c</pageOrSobjectType>
+        <recordType>DCCA_LeTS_Measure_Main__c.LeTS_Measure</recordType>
         <type>Flexipage</type>
-        <profile>Platform Starter DO Ref_LeTS</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Platform Starter DO Ref_LeTS</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>LeTS Leg Proposal User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>LeTS Leg Proposal User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Platform Plus DO_LeTS_OAH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Platform Plus DO_LeTS_OAH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Platform Plus LeTS_OAH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Platform Plus LeTS_OAH</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>DCCA_LeTS_Keyword_Page</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>DCCA_LeTS_Div_Keyword__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Platform Starter DO Div_LeTS</profile>
+        <profile>Platform Starter LeTS User</profile>
     </profileActionOverrides>
     <setupExperience>all</setupExperience>
     <tabs>standard-home</tabs>

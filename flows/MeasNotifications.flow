@@ -1,6 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
+        <name>AllTrkOffEmail</name>
+        <label>AllTrkOffEmail</label>
+        <locationX>314</locationX>
+        <locationY>998</locationY>
+        <actionName>DCCA_LeTS_Measure_Main__c.LeTS_All_Track_turned_off_Notice</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>SendAllTrkOff_0</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>GetMeasRec.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>AllTrkOnEmail</name>
+        <label>AllTrkOnEmail</label>
+        <locationX>50</locationX>
+        <locationY>998</locationY>
+        <actionName>DCCA_LeTS_Measure_Main__c.LeTS_All_Track_turned_on_Notice</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>SendAllTrkOn</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>GetMeasRec.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>MeasAddNotif</name>
+        <label>MeasAddNotif</label>
+        <locationX>182</locationX>
+        <locationY>1694</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <connector>
+            <targetReference>CstmNotifIdMeasIdChg</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>CustomNotifID</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <elementReference>NewMeasBody</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <stringValue>NEW Measure added to LeTS</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>GrpRecipients</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>GetMeasRec.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>MeasIdentChg</name>
+        <label>MeasIdentChg</label>
+        <locationX>182</locationX>
+        <locationY>2270</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <connector>
+            <targetReference>MeasIdentChg2</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>CustomNotifID</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <elementReference>MeasIdentbody</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <stringValue>Alert Measure Identifier Change</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>GrpRecipients</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>GetMeasRec.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
         <name>MeasIDSet</name>
         <label>MeasIDSet</label>
         <locationX>314</locationX>
@@ -22,26 +142,29 @@
         <name>SendAllTrkOff_0</name>
         <label>SendAllTrkOff</label>
         <locationX>314</locationX>
-        <locationY>998</locationY>
+        <locationY>1118</locationY>
         <actionName>customNotificationAction</actionName>
         <actionType>customNotificationAction</actionType>
+        <connector>
+            <targetReference>CstmNotifIdNewMeas</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>customNotifTypeId</name>
             <value>
-                <elementReference>CstmNotifId.Id</elementReference>
+                <elementReference>CstmNotifIdAllTrk.Id</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>All Track turned off for Measure {![DCCA_LeTS_Measure_Main__c].DCCA_LeTS_Meas_baseid__c}.  Click on the number here to go directly to the Measure - {![DCCA_LeTS_Measure_Main__c].Name}</stringValue>
+                <elementReference>AllTrkOffBody</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
             <name>title</name>
             <value>
-                <stringValue>All Track turned off for Measure {![DCCA_LeTS_Measure_Main__c].DCCA_LeTS_Meas_baseid__c}.</stringValue>
+                <elementReference>AllTrkOffTitle</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -61,26 +184,29 @@
         <name>SendAllTrkOn</name>
         <label>SendAllTrkOn</label>
         <locationX>50</locationX>
-        <locationY>998</locationY>
+        <locationY>1118</locationY>
         <actionName>customNotificationAction</actionName>
         <actionType>customNotificationAction</actionType>
+        <connector>
+            <targetReference>CstmNotifIdNewMeas</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>customNotifTypeId</name>
             <value>
-                <elementReference>CstmNotifId.Id</elementReference>
+                <elementReference>CstmNotifIdAllTrk.Id</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>All Track turned on for Measure {![DCCA_LeTS_Measure_Main__c].DCCA_LeTS_Meas_baseid__c}.  Click on the number here to go directly to the Measure - {![DCCA_LeTS_Measure_Main__c].Name}</stringValue>
+                <elementReference>AllTrkOnBody</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
             <name>title</name>
             <value>
-                <stringValue>All Track has been turned on for Measure - {![DCCA_LeTS_Measure_Main__c].DCCA_LeTS_Meas_baseid__c}</stringValue>
+                <elementReference>AllTrkOnTitle</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -96,6 +222,75 @@
             </value>
         </inputParameters>
     </actionCalls>
+    <actionCalls>
+        <name>SendMeasIdentChg1</name>
+        <label>SendMeasIdentChg1</label>
+        <locationX>182</locationX>
+        <locationY>2150</locationY>
+        <actionName>DCCA_LeTS_Measure_Main__c.Alert_Measure_Identifier_Chg1</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>MeasIdentChg</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>GetMeasRec.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>SendMeasIdentChg2</name>
+        <label>SendMeasIdentChg2</label>
+        <locationX>182</locationX>
+        <locationY>2606</locationY>
+        <actionName>DCCA_LeTS_Measure_Main__c.Alert_Measure_Identifier_Chg1</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>SetMeasIdentChg2</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>GetMeasRec.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>SendNewMeas</name>
+        <label>SendNewMeas</label>
+        <locationX>182</locationX>
+        <locationY>1574</locationY>
+        <actionName>DCCA_LeTS_Measure_Main__c.Alert_New_Measure_added</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>MeasAddNotif</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>GetMeasRec.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>SetMeasIdentChg2</name>
+        <label>SetMeasIdentChg2</label>
+        <locationX>182</locationX>
+        <locationY>2726</locationY>
+        <actionName>DCCA_LeTS_Measure_Main__c.Alert_Measure_Identifier_Chg2</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>GetMeasRec.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
     <apiVersion>53.0</apiVersion>
     <assignments>
         <name>AssignGetMeasID_0</name>
@@ -104,7 +299,7 @@
         <locationY>278</locationY>
         <assignmentItems>
             <assignToReference>GetMeasRec.Id</assignToReference>
-            <operator>Assign</operator>
+            <operator>Add</operator>
             <value>
                 <elementReference>recordId.Id</elementReference>
             </value>
@@ -130,10 +325,358 @@
         </connector>
     </assignments>
     <decisions>
+        <name>MeasAfterLegDate</name>
+        <label>MeasAfterLegDate</label>
+        <locationX>314</locationX>
+        <locationY>1454</locationY>
+        <defaultConnector>
+            <targetReference>CstmNotifIdMeasIdChg</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>AlertNewMeasure</name>
+            <conditionLogic>1 AND 2 AND (3 OR 4)</conditionLogic>
+            <conditions>
+                <leftValueReference>GetMeasRec.CreatedDate</leftValueReference>
+                <operator>GreaterThan</operator>
+                <rightValue>
+                    <dateTimeValue>2023-01-27T10:00:00.000Z</dateTimeValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.CreatedDate</leftValueReference>
+                <operator>GreaterThanOrEqualTo</operator>
+                <rightValue>
+                    <elementReference>GetMeasRec.LastModifiedDate</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_baseid__c</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>HB</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_baseid__c</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>SB</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SendNewMeas</targetReference>
+            </connector>
+            <label>AlertNewMeasure</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>MeasIdentChg1</name>
+        <label>MeasIdentChg1</label>
+        <locationX>314</locationX>
+        <locationY>2030</locationY>
+        <defaultConnector>
+            <targetReference>MeasIdentChg2</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>ChgMeasIdent1</name>
+            <conditionLogic>1 AND ((2 OR 3) OR (4 OR 5) OR (6 or 7) OR (8 OR 9) OR (10 OR 11) OR (12 OR 13)) AND (14 OR 15 OR 16 OR 17 OR 18)</conditionLogic>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Identifier__c</leftValueReference>
+                <operator>WasSet</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_ASO__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_ASO__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_BREG__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_BREG__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_CATV__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_CATV__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_DCA__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_DCA__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_DFI__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_DFI__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_DO__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_DO__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.Lead_Division__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.Div2__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.Div3__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.Div4__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.Div5__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SendMeasIdentChg1</targetReference>
+            </connector>
+            <label>ChgMeasIdent1</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>MeasIdentChg2</name>
+        <label>MeasIdentChg2</label>
+        <locationX>314</locationX>
+        <locationY>2486</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>ChgMeasIdent2</name>
+            <conditionLogic>1 AND ((2 OR 3) OR (4 OR 5) OR (6 or 7) OR (8 OR 9) OR (10 OR 11) OR (12 OR 13) OR (19 OR 20)) AND (14 OR 15 OR 16 OR 17 OR 18)</conditionLogic>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Identifier__c</leftValueReference>
+                <operator>WasSet</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_HPEAP__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_HPEAP__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_INS__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_INS__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_ISCO__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_ISCO__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_OAH__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_OAH__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_OCP__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_OCP__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_PVL__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_PVL__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.Lead_Division__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.Div2__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.Div3__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.Div4__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.Div5__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_RICO__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetMeasRec.DCCA_LeTS_Meas_Email_RICO__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SendMeasIdentChg2</targetReference>
+            </connector>
+            <label>ChgMeasIdent2</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>WhichNotify_0</name>
         <label>WhichNotify</label>
         <locationX>314</locationX>
         <locationY>878</locationY>
+        <defaultConnector>
+            <targetReference>CstmNotifIdNewMeas</targetReference>
+        </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>AllTrackNotifOn_0</name>
@@ -146,7 +689,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>SendAllTrkOn</targetReference>
+                <targetReference>AllTrkOnEmail</targetReference>
             </connector>
             <label>AllTrackNotifOn</label>
         </rules>
@@ -161,11 +704,12 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>SendAllTrkOff_0</targetReference>
+                <targetReference>AllTrkOffEmail</targetReference>
             </connector>
             <label>AllTrackNotifOff</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <interviewLabel>MeasNotifications {!$Flow.CurrentDateTime}</interviewLabel>
     <label>MeasNotifications</label>
     <processMetadataValues>
@@ -188,8 +732,8 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordLookups>
-        <name>CstmNotifId</name>
-        <label>CstmNotifId</label>
+        <name>CstmNotifIdAllTrk</name>
+        <label>CstmNotifIdAllTrk</label>
         <locationX>314</locationX>
         <locationY>518</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
@@ -206,6 +750,51 @@
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
         <object>CustomNotificationType</object>
+        <queriedFields>Id</queriedFields>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>CstmNotifIdMeasIdChg</name>
+        <label>CstmNotifIdMeasIdChg</label>
+        <locationX>314</locationX>
+        <locationY>1910</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>MeasIdentChg1</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Alert_Meas_Ident_Chg</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>CustomNotificationType</object>
+        <queriedFields>Id</queriedFields>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>CstmNotifIdNewMeas</name>
+        <label>CstmNotifIdNewMeas</label>
+        <locationX>314</locationX>
+        <locationY>1334</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>MeasAfterLegDate</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Alert_New_Measure</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>CustomNotificationType</object>
+        <queriedFields>Id</queriedFields>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
@@ -215,7 +804,7 @@
         <locationY>398</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>CstmNotifId</targetReference>
+            <targetReference>CstmNotifIdAllTrk</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -260,6 +849,36 @@
         </connector>
     </start>
     <status>Active</status>
+    <textTemplates>
+        <name>AllTrkOffBody</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>All Track turned off for Measure {!GetMeasRec.DCCA_LeTS_Meas_baseid__c}.  Click on the number here to go directly to the Measure - {!GetMeasRec.Name}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>AllTrkOffTitle</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>All Track has been turned off for Measure - {!GetMeasRec.DCCA_LeTS_Meas_baseid__c}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>AllTrkOnBody</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>All Track turned on for Measure {!GetMeasRec.DCCA_LeTS_Meas_baseid__c} - Click on the number here to go directly to the Measure - {!GetMeasRec.Name}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>AllTrkOnTitle</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>All Track has been turned on for Measure - {!GetMeasRec.DCCA_LeTS_Meas_baseid__c}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>MeasIdentbody</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Measure Identifier change {!GetMeasRec.DCCA_LeTS_Meas_Identifier__c}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>NewMeasBody</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>New Measure added -  {!GetMeasRec.DCCA_LeTS_Meas_Identifier__c} has been added to LeTS. New Measure can be found at - {!GetMeasRec.Name}</text>
+    </textTemplates>
     <variables>
         <name>CustomDevName</name>
         <dataType>String</dataType>

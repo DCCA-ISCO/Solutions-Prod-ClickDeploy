@@ -86,12 +86,12 @@
         <relationshipLabel><!-- DCCA DO Ref History Comments --></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- DOR Ref NO --></label>
-        <name>DOR_Ref_NO__c</name>
-    </fields>
-    <fields>
         <label><!-- DO Ref Additional Info --></label>
         <name>DO_Ref_Additional_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- DOR Ref NO --></label>
+        <name>DOR_Ref_NO__c</name>
     </fields>
     <layouts>
         <layout>DCCA DO Ref History Comment Layout</layout>

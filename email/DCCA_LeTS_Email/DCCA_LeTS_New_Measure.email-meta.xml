@@ -5,7 +5,7 @@
     <encodingKey>ISO-8859-1</encodingKey>
     <name>DCCA LeTS New Measure</name>
     <style>none</style>
-    <subject>LeTS - NEW Measure added to LeTS</subject>
+    <subject>LeTS - NEW Measure {!DCCA_LeTS_Measure_Main__c.DCCA_LeTS_Meas_Identifier__c}</subject>
     <type>text</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>

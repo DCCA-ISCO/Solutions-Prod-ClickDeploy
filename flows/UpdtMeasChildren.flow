@@ -35,6 +35,7 @@
             <targetReference>GetMeasHTRecs</targetReference>
         </connector>
     </assignments>
+    <environments>Default</environments>
     <interviewLabel>UpdtMeasChildren {!$Flow.CurrentDateTime}</interviewLabel>
     <label>UpdtMeasChildren</label>
     <processMetadataValues>
@@ -70,7 +71,7 @@
             <field>DCCA_LeTS_Measure_base__c</field>
             <operator>EqualTo</operator>
             <value>
-                <elementReference>recordId.Id</elementReference>
+                <elementReference>MeasRecId</elementReference>
             </value>
         </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>
@@ -89,7 +90,7 @@
             <field>DCCA_LeTS_Measure_base__c</field>
             <operator>EqualTo</operator>
             <value>
-                <elementReference>recordId.Id</elementReference>
+                <elementReference>MeasRecId</elementReference>
             </value>
         </filters>
         <inputAssignments>
@@ -129,15 +130,9 @@
             </value>
         </inputAssignments>
         <inputAssignments>
-            <field>DCCA_LeTS_HT_DIV5_Action__c</field>
-            <value>
-                <elementReference>recordId.Div5_Action__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
             <field>DCCA_LeTS_HT_DIV5__c</field>
             <value>
-                <elementReference>recordId.Div5__c</elementReference>
+                <elementReference>recordId.Div5_Action__c</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>

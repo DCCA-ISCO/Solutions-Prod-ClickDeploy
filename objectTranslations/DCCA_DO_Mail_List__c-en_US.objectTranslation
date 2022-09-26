@@ -37,12 +37,12 @@
         <name>DCCA_Division_ML__c</name>
     </fields>
     <fields>
-        <label><!-- DCCA Leg-ASO --></label>
-        <name>DCCA_Leg_ASO__c</name>
-    </fields>
-    <fields>
         <label><!-- DCCA Leg All --></label>
         <name>DCCA_Leg_All__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA Leg-ASO --></label>
+        <name>DCCA_Leg_ASO__c</name>
     </fields>
     <fields>
         <label><!-- DCCA Leg-BREG --></label>

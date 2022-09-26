@@ -16,7 +16,7 @@
         <label>Information</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Readonly</behavior>
+                <behavior>Edit</behavior>
                 <field>DCCA_LeTS_Meas_Identifier__c</field>
             </layoutItems>
             <layoutItems>
@@ -78,7 +78,7 @@
                 <field>DCCA_LeTS_PDF_link__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Readonly</behavior>
                 <field>DCCA_LeTS_Current_Status__c</field>
             </layoutItems>
             <layoutItems>
@@ -129,7 +129,7 @@
                 <field>Name</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
+                <behavior>Required</behavior>
                 <field>DCCA_LeTS_Meas_baseid__c</field>
             </layoutItems>
         </layoutColumns>
@@ -233,9 +233,10 @@
         <fields>DCCA_LeTS_KY_Meas_Baseid__c</fields>
         <fields>DCCA_LeTS_KY_DIV__c</fields>
         <fields>DCCA_LeTS_KY_Keyword__c</fields>
-        <fields>DCCA_LeTS_KY_Context__c</fields>
-        <fields>DCCA_LeTS_KY_PercentLoc__c</fields>
+        <fields>Keyword_Full_Context__c</fields>
         <fields>NAME</fields>
+        <fields>LeTS_DivKY_ComboKey__c</fields>
+        <fields>LeTS_DivKY_ComboValue__c</fields>
         <relatedList>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Meas_Base__c</relatedList>
     </relatedLists>
     <relatedLists>

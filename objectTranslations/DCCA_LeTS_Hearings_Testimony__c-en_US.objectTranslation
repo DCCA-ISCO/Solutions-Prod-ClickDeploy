@@ -21,12 +21,12 @@
         <name>DCCA_LeTS_HT_Cmte_Mtg_Date__c</name>
     </fields>
     <fields>
-        <label><!-- Meas Cmte Mtg Notice Link --></label>
-        <name>DCCA_LeTS_HT_Cmte_Mtg_Notice_Link__c</name>
+        <label><!-- Hearing Notice --></label>
+        <name>DCCA_LeTS_HT_Cmte_Mtg_Notice__c</name>
     </fields>
     <fields>
-        <label><!-- HT Cmte Mtg Notice --></label>
-        <name>DCCA_LeTS_HT_Cmte_Mtg_Notice__c</name>
+        <label><!-- Meas Cmte Mtg Notice Link --></label>
+        <name>DCCA_LeTS_HT_Cmte_Mtg_Notice_Link__c</name>
     </fields>
     <fields>
         <label><!-- DCCA LeTS HT Cmte Mtg Room --></label>
@@ -45,6 +45,10 @@
         <name>DCCA_LeTS_HT_Committee__c</name>
     </fields>
     <fields>
+        <label><!-- DIV2 --></label>
+        <name>DCCA_LeTS_HT_DIV2__c</name>
+    </fields>
+    <fields>
         <label><!-- DIV2 Action --></label>
         <name>DCCA_LeTS_HT_DIV2_Action__c</name>
     </fields>
@@ -58,8 +62,8 @@
         <name>DCCA_LeTS_HT_DIV2_Testimony_Status__c</name>
     </fields>
     <fields>
-        <label><!-- DIV2 --></label>
-        <name>DCCA_LeTS_HT_DIV2__c</name>
+        <label><!-- DIV3 --></label>
+        <name>DCCA_LeTS_HT_DIV3__c</name>
     </fields>
     <fields>
         <label><!-- DIV3 Action --></label>
@@ -75,8 +79,8 @@
         <name>DCCA_LeTS_HT_DIV3_Testimony_Status__c</name>
     </fields>
     <fields>
-        <label><!-- DIV3 --></label>
-        <name>DCCA_LeTS_HT_DIV3__c</name>
+        <label><!-- DIV4 --></label>
+        <name>DCCA_LeTS_HT_DIV4__c</name>
     </fields>
     <fields>
         <label><!-- DIV4 Action --></label>
@@ -92,8 +96,8 @@
         <name>DCCA_LeTS_HT_DIV4_Testimony_Status__c</name>
     </fields>
     <fields>
-        <label><!-- DIV4 --></label>
-        <name>DCCA_LeTS_HT_DIV4__c</name>
+        <label><!-- DIV5 --></label>
+        <name>DCCA_LeTS_HT_DIV5__c</name>
     </fields>
     <fields>
         <label><!-- DIV5 Action --></label>
@@ -109,8 +113,8 @@
         <name>DCCA_LeTS_HT_DIV5_Testimony_Status__c</name>
     </fields>
     <fields>
-        <label><!-- DIV5 --></label>
-        <name>DCCA_LeTS_HT_DIV5__c</name>
+        <label><!-- DIV Lead --></label>
+        <name>DCCA_LeTS_HT_DIV_Lead__c</name>
     </fields>
     <fields>
         <help><!-- Only use Hearing Position if the Action needed does not match Division Action. --></help>
@@ -118,20 +122,16 @@
         <name>DCCA_LeTS_HT_DIV_Lead_Hearing_Position__c</name>
     </fields>
     <fields>
-        <label><!-- DIV Lead --></label>
-        <name>DCCA_LeTS_HT_DIV_Lead__c</name>
-    </fields>
-    <fields>
         <label><!-- DIV Testimony Status --></label>
         <name>DCCA_LeTS_HT_DIV_Testimony_Status__c</name>
     </fields>
     <fields>
-        <label><!-- DCCA LeTS HT Email ASO --></label>
-        <name>DCCA_LeTS_HT_Email_ASO__c</name>
-    </fields>
-    <fields>
         <label><!-- DCCA LeTS HT Email All --></label>
         <name>DCCA_LeTS_HT_Email_All__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS HT Email ASO --></label>
+        <name>DCCA_LeTS_HT_Email_ASO__c</name>
     </fields>
     <fields>
         <label><!-- DCCA LeTS HT Email BREG --></label>
@@ -251,6 +251,14 @@
         <name>LeTS_Div5_email__c</name>
     </fields>
     <fields>
+        <label><!-- LeTS HT ComboID --></label>
+        <name>LeTS_HT_ComboID__c</name>
+    </fields>
+    <fields>
+        <label><!-- LeTS HT ComboValue --></label>
+        <name>LeTS_HT_ComboValue__c</name>
+    </fields>
+    <fields>
         <label><!-- LeTS Lead Div email --></label>
         <name>LeTS_Lead_Div_email__c</name>
     </fields>
@@ -261,13 +269,16 @@
             <section>Custom Links</section>
         </sections>
     </layouts>
+    <layouts>
+        <layout>LeTS Prior_Hearings_Testimony Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <quickActions>
         <label><!-- DCCA LeTs Committee Mtg1 --></label>
         <name>DCCA_LeTs_Committee_Mtg1</name>
-    </quickActions>
-    <quickActions>
-        <label><!-- LeTSHTdivEmails --></label>
-        <name>LeTSHTdivEmails</name>
     </quickActions>
     <quickActions>
         <label><!-- LeTS DIV ACT Updts --></label>
@@ -285,5 +296,19 @@
         <label><!-- LeTS Send DIV Email --></label>
         <name>LeTS_Send_DIV_email</name>
     </quickActions>
+    <quickActions>
+        <label><!-- LeTSHTdivEmails --></label>
+        <name>LeTSHTdivEmails</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- LeTS current session HT record --></description>
+        <label><!-- CurrentHT --></label>
+        <name>CurrentHT</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- prior session hearings records --></description>
+        <label><!-- PRIORHT --></label>
+        <name>PRIORHT</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -8,18 +8,6 @@
         <plural>true</plural>
         <value>OAH Cases</value>
     </caseValues>
-    <fieldSets>
-        <label><!-- Bond Info --></label>
-        <name>Bond_Info</name>
-    </fieldSets>
-    <fieldSets>
-        <label><!-- Case_All_Fields --></label>
-        <name>Case_All_Fields</name>
-    </fieldSets>
-    <fieldSets>
-        <label><!-- Storage Info --></label>
-        <name>Storage_Info</name>
-    </fieldSets>
     <fields>
         <label><!-- Appeal Outcome --></label>
         <name>Appeal_Outcome__c</name>
@@ -480,10 +468,6 @@
         <relationshipLabel><!-- OAH Cases (Contact) --></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Court Decision Comments --></label>
-        <name>Court_Decision_Comments__c</name>
-    </fields>
-    <fields>
         <label><!-- Court Decision --></label>
         <name>Court_Decision__c</name>
         <picklistValues>
@@ -498,6 +482,10 @@
             <masterLabel>Reversed</masterLabel>
             <translation><!-- Reversed --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Court Decision Comments --></label>
+        <name>Court_Decision_Comments__c</name>
     </fields>
     <fields>
         <label><!-- Court Order Date --></label>
@@ -564,20 +552,20 @@
         <name>Date_Notice_of_AppealOrder_Received__c</name>
     </fields>
     <fields>
-        <label><!-- Date Received --></label>
-        <name>Date_Received__c</name>
-    </fields>
-    <fields>
-        <label><!-- Date Sent to Storage --></label>
-        <name>Date_Sent_to_Storage__c</name>
-    </fields>
-    <fields>
         <label><!-- Date of Oral Argument --></label>
         <name>Date_of_Oral_Argument__c</name>
     </fields>
     <fields>
         <label><!-- Date of Submission of Closing Briefs --></label>
         <name>Date_of_Submission_of_Closing_Briefs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Received --></label>
+        <name>Date_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Sent to Storage --></label>
+        <name>Date_Sent_to_Storage__c</name>
     </fields>
     <fields>
         <label><!-- Disposition --></label>
@@ -683,6 +671,18 @@
         <label><!-- Document Title --></label>
         <name>Document_Title__c</name>
     </fields>
+    <fieldSets>
+        <label><!-- Bond Info --></label>
+        <name>Bond_Info</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Case_All_Fields --></label>
+        <name>Case_All_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Storage Info --></label>
+        <name>Storage_Info</name>
+    </fieldSets>
     <fields>
         <label><!-- Fee Amount Paid --></label>
         <name>Fee_Amount_Paid__c</name>
@@ -740,6 +740,11 @@
         <name>Final_Order_Proposed_Date__c</name>
     </fields>
     <fields>
+        <label><!-- Hearings Officer --></label>
+        <name>Hearings_Officer__c</name>
+        <relationshipLabel><!-- OAH Cases (Hearings Officer) --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Case Notes --></label>
         <name>Hearings_Officer_Notes__c</name>
     </fields>
@@ -751,11 +756,6 @@
     <fields>
         <label><!-- Hearings Officer text --></label>
         <name>Hearings_Officer_Text__c</name>
-    </fields>
-    <fields>
-        <label><!-- Hearings Officer --></label>
-        <name>Hearings_Officer__c</name>
-        <relationshipLabel><!-- OAH Cases (Hearings Officer) --></relationshipLabel>
     </fields>
     <fields>
         <label><!-- Last Day of Hearing --></label>
@@ -994,12 +994,12 @@
         </sections>
     </layouts>
     <quickActions>
-        <label><!-- Create Task --></label>
-        <name>Create_OAH_Task</name>
-    </quickActions>
-    <quickActions>
         <label><!-- New Task --></label>
         <name>Create_a_Task</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Task --></label>
+        <name>Create_OAH_Task</name>
     </quickActions>
     <quickActions>
         <label><!-- View/Hide Docket --></label>

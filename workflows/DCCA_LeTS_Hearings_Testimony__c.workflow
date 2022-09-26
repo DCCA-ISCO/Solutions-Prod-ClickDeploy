@@ -16,7 +16,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/LeTS_DIV2_Hearing_Position_Chg</template>
     </alerts>
     <alerts>
@@ -35,7 +36,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/LeTS_DIV3_Hearing_Position_Chg</template>
     </alerts>
     <alerts>
@@ -54,7 +56,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/LeTS_DIV4_Hearing_Position_Chg</template>
     </alerts>
     <alerts>
@@ -73,7 +76,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/LeTS_DIV5_Hearing_Position_Chg</template>
     </alerts>
     <alerts>
@@ -92,7 +96,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/LeTS_Lead_Hearing_Position_Chg</template>
     </alerts>
     <alerts>
@@ -111,7 +116,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_New_Hearing</template>
     </alerts>
     <alerts>
@@ -130,7 +136,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_New_Hearing</template>
     </alerts>
     <alerts>
@@ -149,7 +156,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_New_Hearing</template>
     </alerts>
     <alerts>
@@ -168,7 +176,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_New_Hearing</template>
     </alerts>
     <alerts>
@@ -187,7 +196,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_New_Hearing</template>
     </alerts>
     <alerts>
@@ -202,7 +212,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_New_Hearing</template>
     </alerts>
     <alerts>
@@ -221,7 +232,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_Testimony_Reminder</template>
     </alerts>
     <alerts>
@@ -240,7 +252,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_Testimony_Reminder</template>
     </alerts>
     <alerts>
@@ -259,7 +272,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_Testimony_Reminder</template>
     </alerts>
     <alerts>
@@ -278,7 +292,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_Testimony_Reminder</template>
     </alerts>
     <alerts>
@@ -297,7 +312,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_Testimony_Reminder</template>
     </alerts>
     <alerts>
@@ -312,7 +328,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_TSDiv2_Sent</template>
     </alerts>
     <alerts>
@@ -327,7 +344,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_TSDiv3_Sent</template>
     </alerts>
     <alerts>
@@ -342,7 +360,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_TSDiv4_Sent</template>
     </alerts>
     <alerts>
@@ -357,7 +376,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_TSDiv5_Sent</template>
     </alerts>
     <alerts>
@@ -372,7 +392,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_TStatus_Sent</template>
     </alerts>
     <alerts>
@@ -387,7 +408,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_TS_Sub_Div2</template>
     </alerts>
     <alerts>
@@ -402,7 +424,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_TS_Sub_Div3</template>
     </alerts>
     <alerts>
@@ -417,7 +440,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_TS_Sub_Div4</template>
     </alerts>
     <alerts>
@@ -432,7 +456,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_TS_Sub_Div5</template>
     </alerts>
     <alerts>
@@ -447,7 +472,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_TS_Sub_Lead</template>
     </alerts>
     <alerts>
@@ -474,7 +500,8 @@
             <field>LeTS_Lead_Div_email__c</field>
             <type>email</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_New_Hearing</template>
     </alerts>
     <alerts>
@@ -489,7 +516,8 @@
             <recipient>takasaka@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/DCCA_LeTS_TSLead_Sent</template>
     </alerts>
     <alerts>
@@ -500,7 +528,8 @@
             <field>LeTS_Div2_email__c</field>
             <type>email</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/LeTS_SendtoDiv2</template>
     </alerts>
     <alerts>
@@ -511,7 +540,8 @@
             <field>LeTS_Div3_email__c</field>
             <type>email</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/LeTS_SendtoDiv3</template>
     </alerts>
     <alerts>
@@ -522,7 +552,8 @@
             <field>LeTS_Div4_email__c</field>
             <type>email</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/LeTS_SendtoDiv4</template>
     </alerts>
     <alerts>
@@ -533,7 +564,8 @@
             <field>LeTS_Div5_email__c</field>
             <type>email</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/LeTS_SendtoDiv5</template>
     </alerts>
     <alerts>
@@ -544,7 +576,8 @@
             <field>LeTS_Lead_Div_email__c</field>
             <type>email</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/LeTS_SendtoLeadDiv</template>
     </alerts>
     <rules>

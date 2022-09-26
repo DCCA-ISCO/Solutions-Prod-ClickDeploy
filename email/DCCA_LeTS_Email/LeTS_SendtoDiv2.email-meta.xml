@@ -4,7 +4,7 @@
     <encodingKey>ISO-8859-1</encodingKey>
     <name>LeTS SendtoDiv2</name>
     <style>none</style>
-    <subject>LeTS - ATTENTION - Testimony Status changed by DO</subject>
+    <subject>LeTS - ATTENTION - Testimony Status changed by DO for {!DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_HT_DIV2__c} {!DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_HT_Cmte_Mtg_Notice__c}</subject>
     <type>text</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>

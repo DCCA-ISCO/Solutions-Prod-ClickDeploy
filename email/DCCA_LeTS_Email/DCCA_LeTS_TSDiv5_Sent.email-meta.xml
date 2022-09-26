@@ -4,7 +4,7 @@
     <encodingKey>ISO-8859-1</encodingKey>
     <name>DCCA LeTS TSDiv5 Sent</name>
     <style>none</style>
-    <subject>LeTS - ATTENTION - Testimony sent for review and approval</subject>
+    <subject>LeTS - ATTENTION - Testimony set to Under DO Review {!DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_HT_DIV5__c} {!DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_HT_Meas_Baseid__c}</subject>
     <type>text</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>

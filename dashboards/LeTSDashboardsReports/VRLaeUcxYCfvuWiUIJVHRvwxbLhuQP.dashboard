@@ -105,7 +105,55 @@
                 <report>DCCALeTSReports/New_Report_DWu</report>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
-            <rowSpan>12</rowSpan>
+            <rowSpan>26</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <componentType>Bar</componentType>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingSortProperties/>
+                <header>PRIOR LeTS Meas KY /ASO-HPEAP</header>
+                <report>DCCALeTSReports/PRIOR_LeTS_Meas_KY_ASOHPEAP_yCc</report>
+                <showPercentage>false</showPercentage>
+                <showPicturesOnCharts>false</showPicturesOnCharts>
+                <showValues>false</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <useReportChart>true</useReportChart>
+            </dashboardComponent>
+            <rowIndex>12</rowIndex>
+            <rowSpan>14</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>4</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <componentType>Bar</componentType>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingSortProperties/>
+                <header>PRIOR LeTS Meas KY /INS-RICO</header>
+                <report>DCCALeTSReports/PRIOR_LeTS_Meas_KY_INSRICO_EeP</report>
+                <showPercentage>false</showPercentage>
+                <showPicturesOnCharts>false</showPicturesOnCharts>
+                <showValues>false</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <useReportChart>true</useReportChart>
+            </dashboardComponent>
+            <rowIndex>12</rowIndex>
+            <rowSpan>14</rowSpan>
         </dashboardGridComponents>
         <dashboardGridComponents>
             <colSpan>6</colSpan>
@@ -144,7 +192,7 @@
                 <sortBy>RowLabelAscending</sortBy>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
-            <rowIndex>12</rowIndex>
+            <rowIndex>26</rowIndex>
             <rowSpan>11</rowSpan>
         </dashboardGridComponents>
         <dashboardGridComponents>
@@ -195,7 +243,7 @@
                 <header>DCCA LeTS Acts Report</header>
                 <report>DCCALeTSReports/New_DCCA_LeTS_Measures_Report_G4Z</report>
             </dashboardComponent>
-            <rowIndex>12</rowIndex>
+            <rowIndex>26</rowIndex>
             <rowSpan>11</rowSpan>
         </dashboardGridComponents>
         <numberOfColumns>12</numberOfColumns>

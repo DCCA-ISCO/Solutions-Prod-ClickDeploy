@@ -43,13 +43,15 @@
     </params>
     <reportType>CustomEntityCustomEntity$OAH_Case_List__c$OAH_Event__c</reportType>
     <scope>organization</scope>
-    <showDetails>false</showDetails>
+    <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>
     <showSubTotals>true</showSubTotals>
+    <sortColumn>CUST_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
     <timeFrameFilter>
-        <dateColumn>CHILD_CREATED_DATE</dateColumn>
-        <endDate>2020-06-30</endDate>
+        <dateColumn>OAH_Event__c.Event_Date__c</dateColumn>
+        <endDate>2022-06-30</endDate>
         <interval>INTERVAL_CUSTOM</interval>
-        <startDate>2019-07-01</startDate>
+        <startDate>2021-07-01</startDate>
     </timeFrameFilter>
 </Report>

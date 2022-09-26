@@ -4,7 +4,7 @@
     <encodingKey>ISO-8859-1</encodingKey>
     <name>LeTS Meas Identifier Chg</name>
     <style>none</style>
-    <subject>LeTS - ATTENTION - Change in Measure Identifier</subject>
+    <subject>LeTS - ATTENTION - Change in Measure Identifier for {!DCCA_LeTS_Measure_Main__c.DCCA_LeTS_Meas_Identifier__c}</subject>
     <type>text</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>

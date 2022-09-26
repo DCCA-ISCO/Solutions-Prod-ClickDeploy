@@ -16,12 +16,12 @@
                 <field>DCCA_DO_Referral__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>DCCA_DO_Comment_DIV__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>DCCA_Comment_Date__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>DCCA_DO_Comment_DIV__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
@@ -35,6 +35,10 @@
                 <behavior>Edit</behavior>
                 <field>DO_Ref_Additional_Info__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>DOR_Ref_NO__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
@@ -47,10 +51,6 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>CreatedById</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>DOR_Ref_NO__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

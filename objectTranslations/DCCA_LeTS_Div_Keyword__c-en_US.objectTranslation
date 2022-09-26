@@ -9,6 +9,66 @@
         <value>DCCA LeTS Div Keywords</value>
     </caseValues>
     <fields>
+        <label><!-- Keyword Location --></label>
+        <name>DCCA_LeTS_Keyword_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context10 --></label>
+        <name>DCCA_LeTS_KY_Context10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context11 --></label>
+        <name>DCCA_LeTS_KY_Context11__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context12 --></label>
+        <name>DCCA_LeTS_KY_Context12__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context13 --></label>
+        <name>DCCA_LeTS_KY_Context13__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context14 --></label>
+        <name>DCCA_LeTS_KY_Context14__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context15 --></label>
+        <name>DCCA_LeTS_KY_Context15__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context2 --></label>
+        <name>DCCA_LeTS_KY_Context2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context3 --></label>
+        <name>DCCA_LeTS_KY_Context3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context4 --></label>
+        <name>DCCA_LeTS_KY_Context4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context5 --></label>
+        <name>DCCA_LeTS_KY_Context5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context6 --></label>
+        <name>DCCA_LeTS_KY_Context6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context7 --></label>
+        <name>DCCA_LeTS_KY_Context7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context8 --></label>
+        <name>DCCA_LeTS_KY_Context8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context9 --></label>
+        <name>DCCA_LeTS_KY_Context9__c</name>
+    </fields>
+    <fields>
         <label><!-- Keyword Context --></label>
         <name>DCCA_LeTS_KY_Context__c</name>
     </fields>
@@ -17,12 +77,12 @@
         <name>DCCA_LeTS_KY_DIV__c</name>
     </fields>
     <fields>
-        <label><!-- DCCA LeTS KY Email ASO --></label>
-        <name>DCCA_LeTS_KY_Email_ASO__c</name>
-    </fields>
-    <fields>
         <label><!-- DCCA LeTS KY Email All --></label>
         <name>DCCA_LeTS_KY_Email_All__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS KY Email ASO --></label>
+        <name>DCCA_LeTS_KY_Email_ASO__c</name>
     </fields>
     <fields>
         <label><!-- DCCA LeTS KY Email BREG --></label>
@@ -102,8 +162,20 @@
         <name>DCCA_LeTS_KY_PercentLoc__c</name>
     </fields>
     <fields>
-        <label><!-- Keyword Location --></label>
-        <name>DCCA_LeTS_Keyword_Location__c</name>
+        <label><!-- Keyword Full Context --></label>
+        <name>Keyword_Full_Context__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Match Score --></label>
+        <name>Keyword_Match_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Measure --></label>
+        <name>Keyword_Measure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Score --></label>
+        <name>Keyword_Score__c</name>
     </fields>
     <fields>
         <label><!-- KY PDF datetime --></label>
@@ -114,8 +186,12 @@
         <name>KY_PDF_name__c</name>
     </fields>
     <fields>
-        <label><!-- Keyword Measure --></label>
-        <name>Keyword_Measure__c</name>
+        <label><!-- LeTS DivKY ComboKey --></label>
+        <name>LeTS_DivKY_ComboKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- LeTS DivKY ComboValue --></label>
+        <name>LeTS_DivKY_ComboValue__c</name>
     </fields>
     <layouts>
         <layout>DCCA LeTS Div Keyword Layout</layout>
@@ -124,10 +200,13 @@
             <section>Custom Links</section>
         </sections>
     </layouts>
-    <quickActions>
-        <label><!-- LeTS KYContext changed --></label>
-        <name>LeTS_KYContext_changed</name>
-    </quickActions>
+    <layouts>
+        <layout>Prior LeTS Div Keyword Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <quickActions>
         <label><!-- LeTS KY Email Updt1 --></label>
         <name>LeTS_KY_Email_Updt1</name>
@@ -136,5 +215,18 @@
         <label><!-- LeTS KY Email Updt2 --></label>
         <name>LeTS_KY_Email_Updt2</name>
     </quickActions>
+    <quickActions>
+        <label><!-- LeTS KYContext changed --></label>
+        <name>LeTS_KYContext_changed</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Current session divKY record --></description>
+        <label><!-- CurrentDivKY --></label>
+        <name>CurrentDivKY</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PRIORDivKY --></label>
+        <name>PRIORDivKY</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

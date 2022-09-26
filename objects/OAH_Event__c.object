@@ -178,6 +178,35 @@
         <label>OAH Event Compact Layout</label>
     </compactLayouts>
     <fields>
+        <fullName>Event_End_Week__c</fullName>
+        <description>Event End Week, Saturday following Event Start Week</description>
+        <externalId>false</externalId>
+        <formula>Event_Start_Week__c + 6</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Event End Week</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Event_Start_Week__c</fullName>
+        <description>Week start date based on Event Start Date</description>
+        <externalId>false</externalId>
+        <formula>DATEVALUE(Event_Start_Date__c) - (CASE( MOD((DATEVALUE(Event_Start_Date__c)) - DATE( 1900, 1, 7 ), 7 ),
+0, 0,
+1, 1,
+2, 2,
+3, 3,
+4, 4,
+5, 5,
+6))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Event Start Week</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Via_Phone__c</fullName>
         <externalId>false</externalId>
         <label>Attend Via Phone</label>
@@ -339,7 +368,6 @@
         <formula>/* 36,000,000 = 10 * 60 * 60 * 1000 */
 /* 79,200,000 = 22 * 60 * 60 * 1000 */
 /*            HH   MM   SS   MS   */
-
 /* IF(logical_test, value_if_true, value_if_false)  */
 IF( HOUR( TIMEVALUE( Event_Start_Date__c ) - 36000000) &lt; 12,
 TEXT( HOUR( TIMEVALUE( Event_Start_Date__c ) - 36000000) ) &amp; &quot;:&quot; &amp; LPAD( TEXT( MINUTE( TIMEVALUE( Event_Start_Date__c ))), 2, &quot;0&quot;) &amp; &quot; AM&quot;,
@@ -809,6 +837,46 @@ FIND(&quot;)&quot;, Via_Phone_abbr__c) - FIND(&quot;(&quot;, Via_Phone_abbr__c) 
         <unique>false</unique>
     </fields>
     <listViews>
+        <fullName>OAH_Hearings</fullName>
+        <columns>NAME</columns>
+        <columns>OAH_Case_Number__c</columns>
+        <columns>Event_Type__c</columns>
+        <columns>Event_Description__c</columns>
+        <columns>Event_Start_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Event_Type__c</field>
+            <operation>contains</operation>
+            <value>Hearing (H),Motion (M),Further Hearing (FH),Oral Argument (OA),Rescheduled Hearing (RH),Rescheduled Oral Argument (ROA),Rescheduled Motion (RM)</value>
+        </filters>
+        <label>OAH Hearings</label>
+    </listViews>
+    <listViews>
+        <fullName>OAH_Conferences</fullName>
+        <columns>NAME</columns>
+        <columns>OAH_Case_Number__c</columns>
+        <columns>Event_Type__c</columns>
+        <columns>Event_Description__c</columns>
+        <columns>Event_Start_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Event_Type__c</field>
+            <operation>contains</operation>
+            <value>Pre-Hearing Conference (PHC),Status Conference (SC),Further Status Conference (FSC),Rescheduled Pre-Hearing Conference (RPHC),Rescheduled Status Conference (RSC)</value>
+        </filters>
+        <label>OAH Conferences</label>
+    </listViews>
+    <listViews>
+        <fullName>OAH_Events_List</fullName>
+        <columns>NAME</columns>
+        <columns>OAH_Case_Number__c</columns>
+        <columns>Event_Type__c</columns>
+        <columns>Event_Description__c</columns>
+        <columns>Event_Start_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>OAH Events List</label>
+    </listViews>
+    <listViews>
         <fullName>All_custom</fullName>
         <columns>NAME</columns>
         <columns>OAH_Case_Number__c</columns>
@@ -839,11 +907,9 @@ FIND(&quot;)&quot;, Via_Phone_abbr__c) - FIND(&quot;(&quot;, Via_Phone_abbr__c) 
         <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
 &amp;serverUrl={!API.Partner_Server_URL_370}
 &amp;Id={!OAH_Event__c.Id}
-
 &amp;QueryId=[ThisWeek]a19r0000002PXSq,
 [NextWeek]a19r0000002PXSv,
 [2WeeksOut]a19r0000002PmRs
-
 &amp;TemplateId=a1Hr0000001qu5a</url>
         <width>900</width>
     </webLinks>

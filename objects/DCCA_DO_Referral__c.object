@@ -191,7 +191,6 @@
         <fullName>Age__c</fullName>
         <externalId>false</externalId>
         <formula>IF (Status__c = &quot;Completed&quot;,
-
 (5 * ( FLOOR( ( CLOSED__c - DATE( 1900, 1, 8) ) / 7 ) ) + MIN( 5, MOD( CLOSED__c - DATE( 1900, 1, 8), 7 ) ) )
 -
 (5 * ( FLOOR( ( FROM_CONST__c - DATE( 1900, 1, 8) ) / 7 ) ) + MIN( 5, MOD( FROM_CONST__c - DATE( 1900, 1, 8), 7 ) ) )
@@ -507,6 +506,12 @@
                     <default>false</default>
                     <label>RICO</label>
                 </value>
+                <value>
+                    <fullName>NODIV</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>NODIV</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -620,6 +625,11 @@
                     <fullName>RICO</fullName>
                     <default>false</default>
                     <label>RICO</label>
+                </value>
+                <value>
+                    <fullName>NODIV</fullName>
+                    <default>false</default>
+                    <label>NODIV</label>
                 </value>
             </valueSetDefinition>
             <valueSettings>
@@ -829,6 +839,23 @@
                 <controllingFieldValue>HPEAP</controllingFieldValue>
                 <controllingFieldValue>OAH</controllingFieldValue>
                 <valueName>RICO</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OCP</controllingFieldValue>
+                <controllingFieldValue>PUC</controllingFieldValue>
+                <controllingFieldValue>PVL</controllingFieldValue>
+                <controllingFieldValue>RICO</controllingFieldValue>
+                <controllingFieldValue>ASO</controllingFieldValue>
+                <controllingFieldValue>BREG</controllingFieldValue>
+                <controllingFieldValue>CATV</controllingFieldValue>
+                <controllingFieldValue>DCA</controllingFieldValue>
+                <controllingFieldValue>DFI</controllingFieldValue>
+                <controllingFieldValue>DO</controllingFieldValue>
+                <controllingFieldValue>INS</controllingFieldValue>
+                <controllingFieldValue>ISCO</controllingFieldValue>
+                <controllingFieldValue>HPEAP</controllingFieldValue>
+                <controllingFieldValue>OAH</controllingFieldValue>
+                <valueName>NODIV</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>PUC</controllingFieldValue>
@@ -1434,7 +1461,7 @@
                 <operation>equals</operation>
                 <valueField>DCCA_DO_Mail_List__c.DCCA_Division_ML__c</valueField>
             </filterItems>
-            <isOptional>false</isOptional>
+            <isOptional>true</isOptional>
         </lookupFilter>
         <referenceTo>DCCA_DO_Mail_List__c</referenceTo>
         <relationshipLabel>DCCA DO Referrals (DCCA DO Mail List Match2)</relationshipLabel>
@@ -1444,6 +1471,37 @@
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
+    <listViews>
+        <fullName>DCCA_DO_Referral_Previous_Current_FY</fullName>
+        <booleanFilter>(1 AND 2)</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Constituent__c</columns>
+        <columns>Subject__c</columns>
+        <columns>FROM_CONST__c</columns>
+        <columns>DOC_DATE__c</columns>
+        <columns>Referral_NO__c</columns>
+        <columns>FROM_GOV__c</columns>
+        <columns>TO_GOV__c</columns>
+        <columns>FROM_DO__c</columns>
+        <columns>TO_DO__c</columns>
+        <columns>Division__c</columns>
+        <columns>Due_Date_Gov__c</columns>
+        <columns>Due_Date_DO__c</columns>
+        <columns>Status__c</columns>
+        <columns>Overdue_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>FROM_CONST__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>7/1/2021</value>
+        </filters>
+        <filters>
+            <field>FROM_CONST__c</field>
+            <operation>lessThan</operation>
+            <value>7/1/2022</value>
+        </filters>
+        <label>DCCA DO Referral Previous Current FY</label>
+    </listViews>
     <listViews>
         <fullName>All</fullName>
         <columns>NAME</columns>
@@ -1480,7 +1538,7 @@
         <filters>
             <field>FROM_CONST__c</field>
             <operation>greaterOrEqual</operation>
-            <value>7/1/2022</value>
+            <value>7/1/2020</value>
         </filters>
         <label>DCCA DO Referral Current FY</label>
     </listViews>
@@ -1844,6 +1902,10 @@
             </values>
             <values>
                 <fullName>ISCO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NODIV</fullName>
                 <default>false</default>
             </values>
             <values>

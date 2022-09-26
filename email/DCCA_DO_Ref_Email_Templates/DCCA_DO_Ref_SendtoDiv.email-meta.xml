@@ -5,7 +5,7 @@
     <encodingKey>ISO-8859-1</encodingKey>
     <name>DCCA DO Ref SendtoDiv</name>
     <style>none</style>
-    <subject>DOR - DCCA DO Referral Reply to Division</subject>
+    <subject>DOR - DCCA DO Referral Reply to Division for {!DCCA_DO_Referral__c.Referral_NO__c</subject>
     <type>text</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>

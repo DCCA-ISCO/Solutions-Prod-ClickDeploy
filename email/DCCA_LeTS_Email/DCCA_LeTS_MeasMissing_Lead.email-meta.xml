@@ -4,7 +4,7 @@
     <encodingKey>ISO-8859-1</encodingKey>
     <name>DCCA LeTS MeasMissing Lead</name>
     <style>none</style>
-    <subject>LeTS - ATTENTION:  Division Lead remains unassigned on Measure</subject>
+    <subject>LeTS - ATTENTION:  Division Lead unassigned {!DCCA_LeTS_Measure_Main__c.DCCA_LeTS_Meas_baseid__c}</subject>
     <type>text</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>

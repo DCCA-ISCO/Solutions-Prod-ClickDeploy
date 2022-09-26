@@ -128,7 +128,8 @@
             <field>DCCA_LeTS_Meas_Email_Leg_Coord__c</field>
             <type>email</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_LeTS_Email/LeTS_All_Track_on_Notice</template>
     </alerts>
     <alerts>

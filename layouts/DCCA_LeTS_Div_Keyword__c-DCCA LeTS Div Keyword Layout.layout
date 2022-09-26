@@ -25,26 +25,18 @@
                 <field>DCCA_LeTS_KY_Keyword__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>DCCA_LeTS_KY_PercentLoc__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>DCCA_LeTS_KY_Context__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>KY_PDF_datetime__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>KY_PDF_name__c</field>
+                <field>Keyword_Score__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>DCCA_LeTS_KY_Meas_Base__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Keyword_Full_Context__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
@@ -58,6 +50,10 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>CreatedById</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>LeTS_DivKY_ComboValue__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

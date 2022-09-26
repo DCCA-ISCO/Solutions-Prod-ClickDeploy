@@ -123,6 +123,11 @@
         </picklistValues>
     </fields>
     <fields>
+        <help><!-- Negative number of business days to close the referral means Early, Positive number of business days to close means Overdue. --></help>
+        <label><!-- Days Overdue or Early --></label>
+        <name>Days_Overdue__c</name>
+    </fields>
+    <fields>
         <label><!-- DCCA DO Mail List Match2 --></label>
         <name>DCCA_DO_Mail_List_Match2__c</name>
         <relationshipLabel><!-- DCCA DO Referrals (DCCA DO Mail List Match2) --></relationshipLabel>
@@ -333,15 +338,6 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- DOC DATE --></label>
-        <name>DOC_DATE__c</name>
-    </fields>
-    <fields>
-        <help><!-- Negative number of business days to close the referral means Early, Positive number of business days to close means Overdue. --></help>
-        <label><!-- Days Overdue or Early --></label>
-        <name>Days_Overdue__c</name>
-    </fields>
-    <fields>
         <help><!-- Used when an additional Division is involved with the referral. --></help>
         <label><!-- Division 2 --></label>
         <name>Division_2__c</name>
@@ -380,6 +376,10 @@
         <picklistValues>
             <masterLabel>ISCO</masterLabel>
             <translation><!-- ISCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NODIV</masterLabel>
+            <translation><!-- NODIV --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>OAH</masterLabel>
@@ -467,6 +467,10 @@
         <help><!-- Enter the uploaded file name for the response and provide comments like &quot;Draft for Review&quot; or &quot;Final Response&quot;.  Use Send to Director button when ready. --></help>
         <label><!-- Divsion Response --></label>
         <name>Divsion_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- DOC DATE --></label>
+        <name>DOC_DATE__c</name>
     </fields>
     <fields>
         <label><!-- Due Date DO --></label>

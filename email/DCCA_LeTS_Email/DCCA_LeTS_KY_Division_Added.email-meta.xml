@@ -5,7 +5,7 @@
     <encodingKey>ISO-8859-1</encodingKey>
     <name>DCCA LeTS KY Division Added</name>
     <style>none</style>
-    <subject>LeTS - NEW Keyword Match - Division Keyword added to related Measure</subject>
+    <subject>LeTS - NEW {!DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_DIV__c} Keyword added to related Measure</subject>
     <type>text</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>

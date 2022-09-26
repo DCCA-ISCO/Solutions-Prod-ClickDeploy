@@ -5,7 +5,7 @@
     <encodingKey>ISO-8859-1</encodingKey>
     <name>DCCA DO Referral Assignment</name>
     <style>none</style>
-    <subject>DOR - DCCA Director&apos;s Office Referral Assignment</subject>
+    <subject>DOR - DO Referral Assignment {!DCCA_DO_Referral__c.Division__c}  {!DCCA_DO_Referral__c.Division_2__c}  DCCA Referral Number: {!DCCA_DO_Referral__c.Referral_NO__c}</subject>
     <type>text</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>

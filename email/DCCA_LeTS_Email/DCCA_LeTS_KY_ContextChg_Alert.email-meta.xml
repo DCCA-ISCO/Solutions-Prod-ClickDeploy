@@ -5,7 +5,7 @@
     <encodingKey>ISO-8859-1</encodingKey>
     <name>DCCA LeTS KY ContextChg Alert</name>
     <style>none</style>
-    <subject>LeTS - Keyword Match context has changed</subject>
+    <subject>LeTS - {!DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_DIV__c} Keyword  {!DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Keyword__c} Context Change</subject>
     <type>text</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>

@@ -25,6 +25,10 @@
         <name>Event_Description__c</name>
     </fields>
     <fields>
+        <label><!-- Event End Week --></label>
+        <name>Event_End_Week__c</name>
+    </fields>
+    <fields>
         <label><!-- Event Location --></label>
         <name>Event_Location__c</name>
         <picklistValues>
@@ -129,6 +133,10 @@
         <name>Event_Start_Date__c</name>
     </fields>
     <fields>
+        <label><!-- Event Start Week --></label>
+        <name>Event_Start_Week__c</name>
+    </fields>
+    <fields>
         <label><!-- Event Status --></label>
         <name>Event_Status__c</name>
         <picklistValues>
@@ -224,10 +232,6 @@
         <relationshipLabel><!-- OAH Events --></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- OldRecordId --></label>
-        <name>OldRecordId__c</name>
-    </fields>
-    <fields>
         <label><!-- Old Case Number --></label>
         <name>Old_Case_Number__c</name>
     </fields>
@@ -242,6 +246,10 @@
     <fields>
         <label><!-- Old Respondent --></label>
         <name>Old_Respondent__c</name>
+    </fields>
+    <fields>
+        <label><!-- OldRecordId --></label>
+        <name>OldRecordId__c</name>
     </fields>
     <fields>
         <label><!-- Petitioner-Old --></label>

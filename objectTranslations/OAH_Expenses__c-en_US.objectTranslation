@@ -25,12 +25,12 @@
         <name>Hotel__c</name>
     </fields>
     <fields>
-        <label><!-- Incidentals Description --></label>
-        <name>Incidentals_Description__c</name>
-    </fields>
-    <fields>
         <label><!-- Incidentals --></label>
         <name>Incidentals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incidentals Description --></label>
+        <name>Incidentals_Description__c</name>
     </fields>
     <fields>
         <label><!-- Name of Airline --></label>
@@ -46,20 +46,20 @@
         <relationshipLabel><!-- OAH Expenses --></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Parking Company --></label>
-        <name>Parking_Company__c</name>
-    </fields>
-    <fields>
         <label><!-- Parking --></label>
         <name>Parking__c</name>
     </fields>
     <fields>
-        <label><!-- Per Diem Description --></label>
-        <name>Per_Diem_Description__c</name>
+        <label><!-- Parking Company --></label>
+        <name>Parking_Company__c</name>
     </fields>
     <fields>
         <label><!-- Per Diem --></label>
         <name>Per_Diem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Per Diem Description --></label>
+        <name>Per_Diem_Description__c</name>
     </fields>
     <fields>
         <label><!-- Rental Car --></label>

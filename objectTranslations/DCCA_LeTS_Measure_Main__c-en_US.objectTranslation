@@ -41,12 +41,12 @@
         <name>DCCA_LeTS_Companion4__c</name>
     </fields>
     <fields>
-        <label><!-- Companion Links on HSL --></label>
-        <name>DCCA_LeTS_Companion_Links__c</name>
-    </fields>
-    <fields>
         <label><!-- DCCA LeTS Companion --></label>
         <name>DCCA_LeTS_Companion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Companion Links on HSL --></label>
+        <name>DCCA_LeTS_Companion_Links__c</name>
     </fields>
     <fields>
         <label><!-- Current Status --></label>
@@ -70,6 +70,10 @@
         <name>DCCA_LeTS_Main_Report_Title__c</name>
     </fields>
     <fields>
+        <label><!-- DCCA LeTS Meas baseid --></label>
+        <name>DCCA_LeTS_Meas_baseid__c</name>
+    </fields>
+    <fields>
         <label><!-- DCCA LeTS Meas Companion Link2 --></label>
         <name>DCCA_LeTS_Meas_Companion_Link2__c</name>
     </fields>
@@ -90,12 +94,12 @@
         <name>DCCA_LeTS_Meas_Desc__c</name>
     </fields>
     <fields>
-        <label><!-- DCCA LeTS Meas Email ASO --></label>
-        <name>DCCA_LeTS_Meas_Email_ASO__c</name>
-    </fields>
-    <fields>
         <label><!-- DCCA LeTS Meas Email All --></label>
         <name>DCCA_LeTS_Meas_Email_All__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS Meas Email ASO --></label>
+        <name>DCCA_LeTS_Meas_Email_ASO__c</name>
     </fields>
     <fields>
         <label><!-- DCCA LeTS Meas Email BREG --></label>
@@ -166,8 +170,8 @@
         <name>DCCA_LeTS_Meas_Title__c</name>
     </fields>
     <fields>
-        <label><!-- DCCA LeTS Meas baseid --></label>
-        <name>DCCA_LeTS_Meas_baseid__c</name>
+        <label><!-- Meas Package --></label>
+        <name>DCCA_LeTS_Package__c</name>
     </fields>
     <fields>
         <label><!-- DCCA LeTS PDF addr --></label>
@@ -178,44 +182,40 @@
         <name>DCCA_LeTS_PDF_link__c</name>
     </fields>
     <fields>
-        <label><!-- Meas Package --></label>
-        <name>DCCA_LeTS_Package__c</name>
-    </fields>
-    <fields>
         <label><!-- Referrals --></label>
         <name>DCCA_LeTS_Referrals__c</name>
-    </fields>
-    <fields>
-        <label><!-- Div2 Action --></label>
-        <name>Div2_Action__c</name>
     </fields>
     <fields>
         <label><!-- Div2 --></label>
         <name>Div2__c</name>
     </fields>
     <fields>
-        <label><!-- Div3 Action --></label>
-        <name>Div3_Action__c</name>
+        <label><!-- Div2 Action --></label>
+        <name>Div2_Action__c</name>
     </fields>
     <fields>
         <label><!-- Div3 --></label>
         <name>Div3__c</name>
     </fields>
     <fields>
-        <label><!-- Div4 Action --></label>
-        <name>Div4_Action__c</name>
+        <label><!-- Div3 Action --></label>
+        <name>Div3_Action__c</name>
     </fields>
     <fields>
         <label><!-- Div4 --></label>
         <name>Div4__c</name>
     </fields>
     <fields>
-        <label><!-- Div5 Action --></label>
-        <name>Div5_Action__c</name>
+        <label><!-- Div4 Action --></label>
+        <name>Div4_Action__c</name>
     </fields>
     <fields>
         <label><!-- Div5 --></label>
         <name>Div5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Div5 Action --></label>
+        <name>Div5_Action__c</name>
     </fields>
     <fields>
         <label><!-- Lead Div Action --></label>
@@ -224,6 +224,10 @@
     <fields>
         <label><!-- Lead Division --></label>
         <name>Lead_Division__c</name>
+    </fields>
+    <fields>
+        <label><!-- LeTS LP Baseid --></label>
+        <name>LeTS_LP_Baseid__c</name>
     </fields>
     <fields>
         <label><!-- Measure Stage --></label>
@@ -235,6 +239,20 @@
     </fields>
     <layouts>
         <layout>DCCA LeTS Measure Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>LeTS LPs Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Prior DCCA LeTS Measure Layout</layout>
         <sections>
             <label><!-- Custom Links --></label>
             <section>Custom Links</section>
@@ -267,6 +285,21 @@
     <recordTypes>
         <label><!-- Files Record --></label>
         <name>Files_Record</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Special layout of LeTS Measure to facilitate CRUD of Legislative Proposals --></description>
+        <label><!-- LegProposals --></label>
+        <name>LegProposals</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Measures coming from HSL --></description>
+        <label><!-- LeTS Measure --></label>
+        <name>LeTS_Measure</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Read Only records from prior session --></description>
+        <label><!-- PRIORMeas --></label>
+        <name>PRIORMeas</name>
     </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

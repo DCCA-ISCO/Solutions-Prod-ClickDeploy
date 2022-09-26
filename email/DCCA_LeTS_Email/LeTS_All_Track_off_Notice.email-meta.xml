@@ -5,7 +5,7 @@
     <encodingKey>ISO-8859-1</encodingKey>
     <name>LeTS All Track off Notice</name>
     <style>none</style>
-    <subject>LeTS - ATTENTION - All Track turned off for Measure</subject>
+    <subject>LeTS - ATTENTION - All Track turned off for {!DCCA_LeTS_Measure_Main__c.DCCA_LeTS_Meas_baseid__c</subject>
     <type>text</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>

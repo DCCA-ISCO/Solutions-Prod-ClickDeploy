@@ -131,6 +131,30 @@
         <apexClass>MeasKYInvokable</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>OAHAccessCaseCreationBoardTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OAHCaseNumberGeneratorTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OAHTaskApexSharingTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OAHTaskSharingTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OAHcapitalizeBoardTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OAHcapitalizeNameTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
     <externalDataSourceAccesses>
         <enabled>true</enabled>
@@ -407,6 +431,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>DCCA_DO_Ref_History_Comment__c.DOR_Ref_NO__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>DCCA_DO_Ref_History_Comment__c.DO_Ref_Additional_Info__c</field>
         <readable>true</readable>
@@ -563,6 +592,76 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Context10__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Context11__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Context12__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Context13__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Context14__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Context15__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Context2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Context3__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Context4__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Context5__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Context6__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Context7__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Context8__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Context9__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Context__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -673,7 +772,27 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>DCCA_LeTS_Div_Keyword__c.Keyword_Full_Context__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DCCA_LeTS_Div_Keyword__c.Keyword_Match_Score__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>DCCA_LeTS_Div_Keyword__c.Keyword_Measure__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DCCA_LeTS_Div_Keyword__c.Keyword_Score__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DCCA_LeTS_Div_Keyword__c.LeTS_DivKY_ComboKey__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -698,11 +817,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_HT_Cmte_Mtg_Notice__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_HT_Cmte_Mtg_Room__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -714,6 +828,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_HT_Cmte_Stream__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_HT_Committee__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -898,11 +1017,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_HT_Meas_Baseid__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_HT_Measure__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -963,18 +1077,23 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>DCCA_LeTS_Hearings_Testimony__c.LeTS_HT_ComboValue__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>DCCA_LeTS_Hearings_Testimony__c.LeTS_Lead_Div_email__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>DCCA_LeTS_Measure_Main__c.All_Divisions_Track__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>DCCA_LeTS_Measure_Main__c.DCCA_LeTS_Admin_Indicator__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -1154,7 +1273,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>DCCA_LeTS_Measure_Main__c.DCCA_LeTS_Meas_baseid__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -1215,6 +1334,11 @@
         <editable>true</editable>
         <field>DCCA_LeTS_Measure_Main__c.Div5__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DCCA_LeTS_Measure_Main__c.LeTS_LP_Baseid__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1688,6 +1812,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>OAH_Event__c.Event_End_Week__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>OAH_Event__c.Event_Notes__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1705,6 +1834,11 @@
         <editable>false</editable>
         <field>OAH_Event__c.Event_Start_Date__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OAH_Event__c.Event_Start_Week__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -2183,6 +2317,10 @@
         <layout>ContentVersion-Content Version</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ContentVersion-Content Version</layout>
+        <recordType>ContentVersion.RelatedFiles</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Contract-Contract Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2213,7 +2351,23 @@
         <layout>DCCA_LeTS_Div_Keyword__c-DCCA LeTS Div Keyword Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>DCCA_LeTS_Div_Keyword__c-DCCA LeTS Div Keyword Layout</layout>
+        <recordType>DCCA_LeTS_Div_Keyword__c.CurrentDivKY</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DCCA_LeTS_Div_Keyword__c-Prior LeTS Div Keyword Layout</layout>
+        <recordType>DCCA_LeTS_Div_Keyword__c.PRIORDivKY</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>DCCA_LeTS_Hearings_Testimony__c-DCCA LeTS Hearings_Testimony Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DCCA_LeTS_Hearings_Testimony__c-DCCA LeTS Hearings_Testimony Layout</layout>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.CurrentHT</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DCCA_LeTS_Hearings_Testimony__c-LeTS Prior_Hearings_Testimony Layout</layout>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.PRIORHT</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DCCA_LeTS_Measure_Main__c-DCCA LeTS Measure Layout</layout>
@@ -2221,6 +2375,18 @@
     <layoutAssignments>
         <layout>DCCA_LeTS_Measure_Main__c-DCCA LeTS Measure Layout</layout>
         <recordType>DCCA_LeTS_Measure_Main__c.Files_Record</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DCCA_LeTS_Measure_Main__c-DCCA LeTS Measure Layout</layout>
+        <recordType>DCCA_LeTS_Measure_Main__c.LeTS_Measure</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DCCA_LeTS_Measure_Main__c-LeTS LPs Layout</layout>
+        <recordType>DCCA_LeTS_Measure_Main__c.LegProposals</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DCCA_LeTS_Measure_Main__c-Prior DCCA LeTS Measure Layout</layout>
+        <recordType>DCCA_LeTS_Measure_Main__c.PRIORMeas</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DataUseLegalBasis-Data Use Legal Basis Layout</layout>
@@ -2416,18 +2582,68 @@
     </objectPermissions>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>DCCA_DO_Ref_History_Comment__c.DCCA_DO_Ref_Comments</recordType>
+        <recordType>ContentVersion.RelatedFiles</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>false</default>
+        <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
+        <recordType>DCCA_DO_Ref_History_Comment__c.DCCA_DO_Ref_Comments</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
         <recordType>DCCA_DO_Referral__c.DCCA_DIV_Record</recordType>
-        <visible>false</visible>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>DCCA_DO_Referral__c.DCCA_DO_Record</recordType>
-        <visible>false</visible>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
+        <recordType>DCCA_LeTS_Div_Keyword__c.CurrentDivKY</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>DCCA_LeTS_Div_Keyword__c.PRIORDivKY</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.CurrentHT</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>DCCA_LeTS_Hearings_Testimony__c.PRIORHT</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>DCCA_LeTS_Measure_Main__c.Files_Record</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
+        <recordType>DCCA_LeTS_Measure_Main__c.LeTS_Measure</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>DCCA_LeTS_Measure_Main__c.LegProposals</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>DCCA_LeTS_Measure_Main__c.PRIORMeas</recordType>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>DCCA_DO_Mail_List__c</tab>

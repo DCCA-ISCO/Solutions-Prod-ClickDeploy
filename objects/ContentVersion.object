@@ -36,4 +36,9 @@
         <fullName>Title</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <recordTypes>
+        <fullName>RelatedFiles</fullName>
+        <active>true</active>
+        <label>RelatedFiles</label>
+    </recordTypes>
 </CustomObject>

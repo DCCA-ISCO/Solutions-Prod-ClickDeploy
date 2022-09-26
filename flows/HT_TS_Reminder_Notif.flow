@@ -20,7 +20,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  Testimony due in 24 hours for - {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c}  Committee Hearing record - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>TestimonyReminderText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -62,7 +62,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  Testimony due in 24 hours for - {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c}  Committee Hearing record - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>TestimonyReminderText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -104,7 +104,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  Testimony due in 24 hours for - {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c}  Committee Hearing record - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>TestimonyReminderText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -146,7 +146,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  Testimony due in 24 hours for - {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c}  Committee Hearing record - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>TestimonyReminderText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -188,7 +188,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  Testimony due in 24 hours for - {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c}  Committee Hearing record - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>TestimonyReminderText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -230,7 +230,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  Testimony due in 24 hours for - {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c}  Committee Hearing record - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>TestimonyReminderText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -272,7 +272,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  Testimony due in 24 hours for - {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c}  Committee Hearing record - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>TestimonyReminderText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -314,7 +314,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  Testimony due in 24 hours for - {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c}  Committee Hearing record - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>TestimonyReminderText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -356,7 +356,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  Testimony due in 24 hours for - {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c}  Committee Hearing record - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>TestimonyReminderText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -398,7 +398,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  Testimony due in 24 hours for - {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c}  Committee Hearing record - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>TestimonyReminderText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -440,7 +440,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  Testimony due in 24 hours for - {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c}  Committee Hearing record - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>TestimonyReminderText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -482,7 +482,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  Testimony due in 24 hours for - {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c}  Committee Hearing record - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>TestimonyReminderText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -524,7 +524,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  Testimony due in 24 hours for - {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c}  Committee Hearing record - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>TestimonyReminderText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -590,7 +590,7 @@
         <locationY>638</locationY>
         <assignmentItems>
             <assignToReference>GetMeasHTRec.Id</assignToReference>
-            <operator>Add</operator>
+            <operator>Assign</operator>
             <value>
                 <elementReference>MeasHTRecId.Id</elementReference>
             </value>
@@ -605,8 +605,8 @@
         <locationX>182</locationX>
         <locationY>278</locationY>
         <assignmentItems>
-            <assignToReference>GetMeasRec.Id</assignToReference>
-            <operator>Add</operator>
+            <assignToReference>MeasRecId.Id</assignToReference>
+            <operator>Assign</operator>
             <value>
                 <elementReference>recordId.Id</elementReference>
             </value>
@@ -1121,7 +1121,7 @@
                 <leftValueReference>GetMeasHTRec.DCCA_LeTS_HT_Mtg_Adjusted__c</leftValueReference>
                 <operator>LessThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>DateTimeplus4</elementReference>
+                    <elementReference>DateTimeplus0</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -1223,7 +1223,7 @@
                 <leftValueReference>GetMeasHTRec.DCCA_LeTS_HT_Mtg_Adjusted__c</leftValueReference>
                 <operator>LessThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>DateTimeplus4</elementReference>
+                    <elementReference>DateTimeplus0</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -1325,7 +1325,7 @@
                 <leftValueReference>GetMeasHTRec.DCCA_LeTS_HT_Mtg_Adjusted__c</leftValueReference>
                 <operator>LessThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>DateTimeplus4</elementReference>
+                    <elementReference>DateTimeplus0</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -1427,7 +1427,7 @@
                 <leftValueReference>GetMeasHTRec.DCCA_LeTS_HT_Mtg_Adjusted__c</leftValueReference>
                 <operator>LessThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>DateTimeplus4</elementReference>
+                    <elementReference>DateTimeplus0</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -1529,7 +1529,7 @@
                 <leftValueReference>GetMeasHTRec.DCCA_LeTS_HT_Mtg_Adjusted__c</leftValueReference>
                 <operator>LessThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>DateTimeplus4</elementReference>
+                    <elementReference>DateTimeplus0</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -1631,7 +1631,7 @@
                 <leftValueReference>GetMeasHTRec.DCCA_LeTS_HT_Mtg_Adjusted__c</leftValueReference>
                 <operator>LessThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>DateTimeplus4</elementReference>
+                    <elementReference>DateTimeplus0</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -1733,7 +1733,7 @@
                 <leftValueReference>GetMeasHTRec.DCCA_LeTS_HT_Mtg_Adjusted__c</leftValueReference>
                 <operator>LessThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>DateTimeplus4</elementReference>
+                    <elementReference>DateTimeplus0</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -1835,7 +1835,7 @@
                 <leftValueReference>GetMeasHTRec.DCCA_LeTS_HT_Mtg_Adjusted__c</leftValueReference>
                 <operator>LessThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>DateTimeplus4</elementReference>
+                    <elementReference>DateTimeplus0</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -1937,7 +1937,7 @@
                 <leftValueReference>GetMeasHTRec.DCCA_LeTS_HT_Mtg_Adjusted__c</leftValueReference>
                 <operator>LessThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>DateTimeplus4</elementReference>
+                    <elementReference>DateTimeplus0</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -2039,7 +2039,7 @@
                 <leftValueReference>GetMeasHTRec.DCCA_LeTS_HT_Mtg_Adjusted__c</leftValueReference>
                 <operator>LessThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>DateTimeplus4</elementReference>
+                    <elementReference>DateTimeplus0</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -2141,7 +2141,7 @@
                 <leftValueReference>GetMeasHTRec.DCCA_LeTS_HT_Mtg_Adjusted__c</leftValueReference>
                 <operator>LessThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>DateTimeplus4</elementReference>
+                    <elementReference>DateTimeplus0</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -2243,7 +2243,7 @@
                 <leftValueReference>GetMeasHTRec.DCCA_LeTS_HT_Mtg_Adjusted__c</leftValueReference>
                 <operator>LessThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>DateTimeplus4</elementReference>
+                    <elementReference>DateTimeplus0</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -2342,7 +2342,7 @@
                 <leftValueReference>GetMeasHTRec.DCCA_LeTS_HT_Mtg_Adjusted__c</leftValueReference>
                 <operator>LessThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>DateTimeplus4</elementReference>
+                    <elementReference>DateTimeplus0</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -2351,10 +2351,11 @@
             <label>RICOgroups</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <formulas>
-        <name>DateTimeplus4</name>
+        <name>DateTimeplus0</name>
         <dataType>DateTime</dataType>
-        <expression>NOW() +4</expression>
+        <expression>NOW()</expression>
     </formulas>
     <interviewLabel>HT TS Reminder Notif {!$Flow.CurrentDateTime}</interviewLabel>
     <label>HT TS Reminder Notif</label>
@@ -2433,7 +2434,7 @@
             <field>Id</field>
             <operator>EqualTo</operator>
             <value>
-                <elementReference>GetMeasRec.Id</elementReference>
+                <elementReference>MeasRecId.Id</elementReference>
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
@@ -2798,7 +2799,18 @@
             <targetReference>MeasIDSet</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
+    <textTemplates>
+        <name>HTMtgAddChgText</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>ATTENTION: A Committee Meeting has been added or changed for {!GetMeasHTRec.DCCA_LeTS_HT_Meas_Baseid__c} {!{!GetMeasHTRec.DCCA_LeTS_CmteMtgInfo__c} Please see the new meeting at - {!GetMeasHTRec.Name}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>TestimonyReminderText</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>ATTENTION: Testimony due in 24 hours for - {!GetMeasHTRec.DCCA_LeTS_HT_Meas_Baseid__c} 
+ {!GetMeasHTRec.DCCA_LeTS_CmteMtgInfo__c} - Committee Hearing record - {!GetMeasHTRec.Name}</text>
+    </textTemplates>
     <variables>
         <name>ASOgrp</name>
         <dataType>String</dataType>
@@ -3012,6 +3024,14 @@
         <isInput>true</isInput>
         <isOutput>true</isOutput>
         <objectType>DCCA_LeTS_Hearings_Testimony__c</objectType>
+    </variables>
+    <variables>
+        <name>MeasRecId</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>DCCA_LeTS_Measure_Main__c</objectType>
     </variables>
     <variables>
         <name>OAHgrp</name>

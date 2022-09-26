@@ -5,7 +5,7 @@
     <encodingKey>ISO-8859-1</encodingKey>
     <name>DCCA LeTS New Hearing</name>
     <style>none</style>
-    <subject>LeTS - NEW Committee Hearing Meeting</subject>
+    <subject>LeTS - NEW Committee Hearing - {!DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_HT_Meas_Baseid__c}</subject>
     <type>text</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>

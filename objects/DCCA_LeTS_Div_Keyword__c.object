@@ -155,12 +155,13 @@
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <label>DCCA LeTS Div Keyword</label>
     <nameField>
-        <displayFormat>2021-2022-KY#{0000000}</displayFormat>
+        <displayFormat>2023-2024-KY#{0000000}</displayFormat>
         <label>DCCA LeTS Div Keyword Name</label>
         <trackHistory>true</trackHistory>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>DCCA LeTS Div Keywords</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
@@ -169,10 +170,194 @@
         <fields>Keyword_Measure__c</fields>
         <fields>DCCA_LeTS_KY_DIV__c</fields>
         <fields>DCCA_LeTS_KY_Keyword__c</fields>
-        <fields>DCCA_LeTS_KY_Location_Entry__c</fields>
+        <fields>Keyword_Score__c</fields>
         <fields>LastModifiedById</fields>
         <label>LeTS Keyword Compact</label>
     </compactLayouts>
+    <fields>
+        <fullName>Keyword_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>ROUND(Keyword_Match_Score__c,1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Keyword Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Keyword_Match_Score__c</fullName>
+        <externalId>false</externalId>
+        <label>Keyword Match Score</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>6</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LeTS_DivKY_ComboKey__c</fullName>
+        <externalId>false</externalId>
+        <formula>DCCA_LeTS_KY_Meas_Baseid__c  &amp;  DCCA_LeTS_KY_DIV__c  &amp;  DCCA_LeTS_KY_Keyword__c</formula>
+        <label>LeTS DivKY ComboKey</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Keyword_Full_Context__c</fullName>
+        <externalId>false</externalId>
+        <label>Keyword Full Context</label>
+        <length>131072</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>DCCA_LeTS_KY_Context2__c</fullName>
+        <externalId>false</externalId>
+        <label>Keyword Context2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>DCCA_LeTS_KY_Context3__c</fullName>
+        <externalId>false</externalId>
+        <label>Keyword Context3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>DCCA_LeTS_KY_Context4__c</fullName>
+        <externalId>false</externalId>
+        <label>Keyword Context4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>DCCA_LeTS_KY_Context5__c</fullName>
+        <externalId>false</externalId>
+        <label>Keyword Context5</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>DCCA_LeTS_KY_Context6__c</fullName>
+        <externalId>false</externalId>
+        <label>Keyword Context6</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>DCCA_LeTS_KY_Context7__c</fullName>
+        <externalId>false</externalId>
+        <label>Keyword Context7</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>DCCA_LeTS_KY_Context8__c</fullName>
+        <externalId>false</externalId>
+        <label>Keyword Context8</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>DCCA_LeTS_KY_Context9__c</fullName>
+        <externalId>false</externalId>
+        <label>Keyword Context9</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>LeTS_DivKY_ComboValue__c</fullName>
+        <externalId>true</externalId>
+        <label>LeTS DivKY ComboValue</label>
+        <length>121</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DCCA_LeTS_KY_Context10__c</fullName>
+        <externalId>false</externalId>
+        <label>Keyword Context10</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>DCCA_LeTS_KY_Context11__c</fullName>
+        <externalId>false</externalId>
+        <label>Keyword Context11</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>DCCA_LeTS_KY_Context12__c</fullName>
+        <externalId>false</externalId>
+        <label>Keyword Context12</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>DCCA_LeTS_KY_Context13__c</fullName>
+        <externalId>false</externalId>
+        <label>Keyword Context13</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>DCCA_LeTS_KY_Context14__c</fullName>
+        <externalId>false</externalId>
+        <label>Keyword Context14</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>DCCA_LeTS_KY_Context15__c</fullName>
+        <externalId>false</externalId>
+        <label>Keyword Context15</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
     <fields>
         <fullName>KY_PDF_name__c</fullName>
         <externalId>false</externalId>
@@ -206,7 +391,7 @@
     </fields>
     <fields>
         <fullName>DCCA_LeTS_KY_DIV__c</fullName>
-        <externalId>false</externalId>
+        <externalId>true</externalId>
         <label>Keyword DIV</label>
         <length>5</length>
         <required>true</required>
@@ -226,7 +411,7 @@
     </fields>
     <fields>
         <fullName>DCCA_LeTS_KY_Keyword__c</fullName>
-        <externalId>false</externalId>
+        <externalId>true</externalId>
         <label>Matching Keyword</label>
         <length>100</length>
         <required>true</required>
@@ -423,9 +608,9 @@
     </fields>
     <fields>
         <fullName>DCCA_LeTS_KY_Meas_Baseid__c</fullName>
-        <externalId>false</externalId>
+        <externalId>true</externalId>
         <label>DCCA LeTS KY Meas Baseid</label>
-        <length>10</length>
+        <length>16</length>
         <required>true</required>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
@@ -455,6 +640,22 @@
         <trackTrending>false</trackTrending>
         <type>Percent</type>
     </fields>
+    <listViews>
+        <fullName>Prior_LeTS_Div_Keyword_Matches</fullName>
+        <columns>NAME</columns>
+        <columns>DCCA_LeTS_KY_Meas_Baseid__c</columns>
+        <columns>DCCA_LeTS_KY_DIV__c</columns>
+        <columns>DCCA_LeTS_KY_Keyword__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>DCCA_LeTS_KY_Meas_Base__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>DCCA_LeTS_KY_Meas_Baseid__c</field>
+            <operation>startsWith</operation>
+            <value>PRIOR-</value>
+        </filters>
+        <label>Prior LeTS Div Keyword Matches</label>
+    </listViews>
     <listViews>
         <fullName>All</fullName>
         <columns>NAME</columns>
@@ -490,14 +691,21 @@
         <fullName>LeTS_Division_Keyword_Matches</fullName>
         <columns>NAME</columns>
         <columns>DCCA_LeTS_KY_Meas_Baseid__c</columns>
-        <columns>Keyword_Measure__c</columns>
         <columns>DCCA_LeTS_KY_DIV__c</columns>
         <columns>DCCA_LeTS_KY_Keyword__c</columns>
-        <columns>DCCA_LeTS_KY_PercentLoc__c</columns>
-        <columns>DCCA_LeTS_KY_Context__c</columns>
+        <columns>Keyword_Match_Score__c</columns>
+        <columns>LeTS_DivKY_ComboKey__c</columns>
+        <columns>LeTS_DivKY_ComboValue__c</columns>
+        <columns>Keyword_Score__c</columns>
+        <columns>Keyword_Full_Context__c</columns>
         <columns>LAST_UPDATE</columns>
         <columns>DCCA_LeTS_KY_Meas_Base__c</columns>
         <filterScope>Everything</filterScope>
+        <filters>
+            <field>DCCA_LeTS_KY_Meas_Baseid__c</field>
+            <operation>notContain</operation>
+            <value>PRIOR-</value>
+        </filters>
         <label>LeTS Division Keyword Matches</label>
     </listViews>
     <listViews>
@@ -559,4 +767,15 @@
         </filters>
         <label>CATV LeTS Division Keyword Matches</label>
     </listViews>
+    <recordTypes>
+        <fullName>PRIORDivKY</fullName>
+        <active>true</active>
+        <label>PRIORDivKY</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>CurrentDivKY</fullName>
+        <active>true</active>
+        <description>Current session divKY record</description>
+        <label>CurrentDivKY</label>
+    </recordTypes>
 </CustomObject>

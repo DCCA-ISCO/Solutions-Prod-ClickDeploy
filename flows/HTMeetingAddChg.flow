@@ -4,7 +4,7 @@
         <name>HTTSDivHearingAC1</name>
         <label>HTTSDivHearingAC1</label>
         <locationX>50</locationX>
-        <locationY>1358</locationY>
+        <locationY>1118</locationY>
         <actionName>customNotificationAction</actionName>
         <actionType>customNotificationAction</actionType>
         <connector>
@@ -20,7 +20,175 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  A Committee Meeting has been added or changed. {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c} Please see the new meeting at - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>HTMtgAddChgText</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <stringValue>ATTENTION  NEW Committee Hearing or NEW Meeting date/time location</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>GMRecipients</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>MeasHTRecId.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>HTTSDivHearingAC10</name>
+        <label>HTTSDivHearingAC10</label>
+        <locationX>50</locationX>
+        <locationY>7382</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <connector>
+            <targetReference>ClearOAH</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>CstmNotifIdHTAC.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <elementReference>HTMtgAddChgText</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <stringValue>ATTENTION  NEW Committee Hearing or NEW Meeting date/time location</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>GMRecipients</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>MeasHTRecId.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>HTTSDivHearingAC11</name>
+        <label>HTTSDivHearingAC11</label>
+        <locationX>50</locationX>
+        <locationY>8078</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <connector>
+            <targetReference>ClearOCP</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>CstmNotifIdHTAC.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <elementReference>HTMtgAddChgText</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <stringValue>ATTENTION  NEW Committee Hearing or NEW Meeting date/time location</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>GMRecipients</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>MeasHTRecId.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>HTTSDivHearingAC12</name>
+        <label>HTTSDivHearingAC12</label>
+        <locationX>50</locationX>
+        <locationY>8774</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <connector>
+            <targetReference>ClearPVL</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>CstmNotifIdHTAC.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <elementReference>HTMtgAddChgText</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <stringValue>ATTENTION  NEW Committee Hearing or NEW Meeting date/time location</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>GMRecipients</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>MeasHTRecId.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>HTTSDivHearingAC13</name>
+        <label>HTTSDivHearingAC13</label>
+        <locationX>50</locationX>
+        <locationY>9470</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <connector>
+            <targetReference>ClearRICO</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>CstmNotifIdHTAC.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <elementReference>HTMtgAddChgText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -46,7 +214,7 @@
         <name>HTTSDivHearingAC2</name>
         <label>HTTSDivHearingAC2</label>
         <locationX>50</locationX>
-        <locationY>2054</locationY>
+        <locationY>1814</locationY>
         <actionName>customNotificationAction</actionName>
         <actionType>customNotificationAction</actionType>
         <connector>
@@ -62,7 +230,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  A Committee Meeting has been added or changed. {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c} Please see the new meeting at - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>HTMtgAddChgText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -88,7 +256,7 @@
         <name>HTTSDivHearingAC3</name>
         <label>HTTSDivHearingAC3</label>
         <locationX>50</locationX>
-        <locationY>2750</locationY>
+        <locationY>2510</locationY>
         <actionName>customNotificationAction</actionName>
         <actionType>customNotificationAction</actionType>
         <connector>
@@ -104,7 +272,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  A Committee Meeting has been added or changed. {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c} Please see the new meeting at - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>HTMtgAddChgText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -130,7 +298,7 @@
         <name>HTTSDivHearingAC4</name>
         <label>HTTSDivHearingAC4</label>
         <locationX>50</locationX>
-        <locationY>3446</locationY>
+        <locationY>3206</locationY>
         <actionName>customNotificationAction</actionName>
         <actionType>customNotificationAction</actionType>
         <connector>
@@ -146,49 +314,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  A Committee Meeting has been added or changed. {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c} Please see the new meeting at - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>title</name>
-            <value>
-                <stringValue>ATTENTION  NEW Committee Hearing or NEW Meeting date/time location</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>recipientIds</name>
-            <value>
-                <elementReference>GMRecipients</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>targetId</name>
-            <value>
-                <elementReference>MeasHTRecId.Id</elementReference>
-            </value>
-        </inputParameters>
-    </actionCalls>
-    <actionCalls>
-        <name>HTTSDivHearingAC4_0</name>
-        <label>HTTSDivHearingAC4</label>
-        <locationX>50</locationX>
-        <locationY>4142</locationY>
-        <actionName>customNotificationAction</actionName>
-        <actionType>customNotificationAction</actionType>
-        <connector>
-            <targetReference>ClearDFI</targetReference>
-        </connector>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>customNotifTypeId</name>
-            <value>
-                <elementReference>CstmNotifIdHTAC.Id</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>body</name>
-            <value>
-                <stringValue>ATTENTION  A Committee Meeting has been added or changed. {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c} Please see the new meeting at - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>HTMtgAddChgText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -214,7 +340,49 @@
         <name>HTTSDivHearingAC5</name>
         <label>HTTSDivHearingAC5</label>
         <locationX>50</locationX>
-        <locationY>4838</locationY>
+        <locationY>3902</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <connector>
+            <targetReference>ClearDFI</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>CstmNotifIdHTAC.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <elementReference>HTMtgAddChgText</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <stringValue>ATTENTION  NEW Committee Hearing or NEW Meeting date/time location</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>GMRecipients</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>MeasHTRecId.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>HTTSDivHearingAC6</name>
+        <label>HTTSDivHearingAC6</label>
+        <locationX>50</locationX>
+        <locationY>4598</locationY>
         <actionName>customNotificationAction</actionName>
         <actionType>customNotificationAction</actionType>
         <connector>
@@ -230,7 +398,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  A Committee Meeting has been added or changed. {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c} Please see the new meeting at - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>HTMtgAddChgText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -253,136 +421,10 @@
         </inputParameters>
     </actionCalls>
     <actionCalls>
-        <name>HTTSDivReminder10</name>
-        <label>HTTSDivReminder10</label>
+        <name>HTTSDivHearingAC7</name>
+        <label>HTTSDivHearingAC7</label>
         <locationX>50</locationX>
-        <locationY>8318</locationY>
-        <actionName>customNotificationAction</actionName>
-        <actionType>customNotificationAction</actionType>
-        <connector>
-            <targetReference>ClearOCP</targetReference>
-        </connector>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>customNotifTypeId</name>
-            <value>
-                <elementReference>CstmNotifIdHTAC.Id</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>body</name>
-            <value>
-                <stringValue>ATTENTION  A Committee Meeting has been added or changed. {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c} Please see the new meeting at - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>title</name>
-            <value>
-                <stringValue>ATTENTION  NEW Committee Hearing or NEW Meeting date/time location</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>recipientIds</name>
-            <value>
-                <elementReference>GMRecipients</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>targetId</name>
-            <value>
-                <elementReference>MeasHTRecId.Id</elementReference>
-            </value>
-        </inputParameters>
-    </actionCalls>
-    <actionCalls>
-        <name>HTTSDivReminder11</name>
-        <label>HTTSDivReminder11</label>
-        <locationX>50</locationX>
-        <locationY>9014</locationY>
-        <actionName>customNotificationAction</actionName>
-        <actionType>customNotificationAction</actionType>
-        <connector>
-            <targetReference>ClearPVL</targetReference>
-        </connector>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>customNotifTypeId</name>
-            <value>
-                <elementReference>CstmNotifIdHTAC.Id</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>body</name>
-            <value>
-                <stringValue>ATTENTION  A Committee Meeting has been added or changed. {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c} Please see the new meeting at - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>title</name>
-            <value>
-                <stringValue>ATTENTION  NEW Committee Hearing or NEW Meeting date/time location</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>recipientIds</name>
-            <value>
-                <elementReference>GMRecipients</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>targetId</name>
-            <value>
-                <elementReference>MeasHTRecId.Id</elementReference>
-            </value>
-        </inputParameters>
-    </actionCalls>
-    <actionCalls>
-        <name>HTTSDivReminder12</name>
-        <label>HTTSDivReminder12</label>
-        <locationX>50</locationX>
-        <locationY>9710</locationY>
-        <actionName>customNotificationAction</actionName>
-        <actionType>customNotificationAction</actionType>
-        <connector>
-            <targetReference>ClearRICO</targetReference>
-        </connector>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>customNotifTypeId</name>
-            <value>
-                <elementReference>CstmNotifIdHTAC.Id</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>body</name>
-            <value>
-                <stringValue>ATTENTION  A Committee Meeting has been added or changed. {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c} Please see the new meeting at - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>title</name>
-            <value>
-                <stringValue>ATTENTION  NEW Committee Hearing or NEW Meeting date/time location</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>recipientIds</name>
-            <value>
-                <elementReference>GMRecipients</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>targetId</name>
-            <value>
-                <elementReference>MeasHTRecId.Id</elementReference>
-            </value>
-        </inputParameters>
-    </actionCalls>
-    <actionCalls>
-        <name>HTTSDivReminder6</name>
-        <label>HTTSDivReminder6</label>
-        <locationX>50</locationX>
-        <locationY>5534</locationY>
+        <locationY>5294</locationY>
         <actionName>customNotificationAction</actionName>
         <actionType>customNotificationAction</actionType>
         <connector>
@@ -398,7 +440,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  A Committee Meeting has been added or changed. {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c} Please see the new meeting at - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>HTMtgAddChgText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -421,10 +463,10 @@
         </inputParameters>
     </actionCalls>
     <actionCalls>
-        <name>HTTSDivReminder7</name>
-        <label>HTTSDivReminder7</label>
+        <name>HTTSDivHearingAC8</name>
+        <label>HTTSDivHearingAC8</label>
         <locationX>50</locationX>
-        <locationY>6230</locationY>
+        <locationY>5990</locationY>
         <actionName>customNotificationAction</actionName>
         <actionType>customNotificationAction</actionType>
         <connector>
@@ -440,7 +482,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  A Committee Meeting has been added or changed. {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c} Please see the new meeting at - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>HTMtgAddChgText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -463,10 +505,10 @@
         </inputParameters>
     </actionCalls>
     <actionCalls>
-        <name>HTTSDivReminder8</name>
-        <label>HTTSDivReminder8</label>
+        <name>HTTSDivHearingAC9</name>
+        <label>HTTSDivHearingAC9</label>
         <locationX>50</locationX>
-        <locationY>6926</locationY>
+        <locationY>6686</locationY>
         <actionName>customNotificationAction</actionName>
         <actionType>customNotificationAction</actionType>
         <connector>
@@ -482,49 +524,7 @@
         <inputParameters>
             <name>body</name>
             <value>
-                <stringValue>ATTENTION  A Committee Meeting has been added or changed. {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c} Please see the new meeting at - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>title</name>
-            <value>
-                <stringValue>ATTENTION  NEW Committee Hearing or NEW Meeting date/time location</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>recipientIds</name>
-            <value>
-                <elementReference>GMRecipients</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>targetId</name>
-            <value>
-                <elementReference>MeasHTRecId.Id</elementReference>
-            </value>
-        </inputParameters>
-    </actionCalls>
-    <actionCalls>
-        <name>HTTSDivReminder9</name>
-        <label>HTTSDivReminder9</label>
-        <locationX>50</locationX>
-        <locationY>7622</locationY>
-        <actionName>customNotificationAction</actionName>
-        <actionType>customNotificationAction</actionType>
-        <connector>
-            <targetReference>ClearOAH</targetReference>
-        </connector>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>customNotifTypeId</name>
-            <value>
-                <elementReference>CstmNotifIdHTAC.Id</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>body</name>
-            <value>
-                <stringValue>ATTENTION  A Committee Meeting has been added or changed. {![DCCA_LeTS_Hearings_Testimony__c].DCCA_LeTS_CmteMtgInfo__c} Please see the new meeting at - {![DCCA_LeTS_Hearings_Testimony__c].Name}</stringValue>
+                <elementReference>HTMtgAddChgText</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -550,11 +550,11 @@
         <name>MeasHTInvok_0</name>
         <label>MeasHTInvok</label>
         <locationX>182</locationX>
-        <locationY>518</locationY>
+        <locationY>398</locationY>
         <actionName>MeasHTInvokable</actionName>
         <actionType>apex</actionType>
         <connector>
-            <targetReference>AssignGetMeasHTID</targetReference>
+            <targetReference>GetMeasHTRec</targetReference>
         </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
@@ -572,54 +572,22 @@
         <actionName>MeasInvokable</actionName>
         <actionType>apex</actionType>
         <connector>
-            <targetReference>AssignGetMeasID_0</targetReference>
+            <targetReference>GetMeasRec</targetReference>
         </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>recordIds</name>
             <value>
-                <elementReference>recordId.Id</elementReference>
+                <elementReference>MeasRecId.Id</elementReference>
             </value>
         </inputParameters>
     </actionCalls>
     <apiVersion>53.0</apiVersion>
     <assignments>
-        <name>AssignGetMeasHTID</name>
-        <label>AssignGetMeasHTID</label>
-        <locationX>182</locationX>
-        <locationY>638</locationY>
-        <assignmentItems>
-            <assignToReference>GetMeasHTRec.Id</assignToReference>
-            <operator>Add</operator>
-            <value>
-                <elementReference>MeasHTRecId.Id</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>GetMeasHTRec</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
-        <name>AssignGetMeasID_0</name>
-        <label>AssignGetMeasID</label>
-        <locationX>182</locationX>
-        <locationY>278</locationY>
-        <assignmentItems>
-            <assignToReference>GetMeasRec.Id</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>recordId.Id</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>GetMeasRec</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
         <name>AssignGrpHPEAP</name>
         <label>AssignGrpHPEAP</label>
         <locationX>50</locationX>
-        <locationY>5414</locationY>
+        <locationY>5174</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>Add</operator>
@@ -628,14 +596,14 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>HTTSDivReminder6</targetReference>
+            <targetReference>HTTSDivHearingAC7</targetReference>
         </connector>
     </assignments>
     <assignments>
         <name>AssignGrpIDASO</name>
         <label>AssignGrpIDASO</label>
         <locationX>50</locationX>
-        <locationY>1238</locationY>
+        <locationY>998</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>Add</operator>
@@ -651,7 +619,7 @@
         <name>AssignGrpIDBREG</name>
         <label>AssignGrpIDBREG</label>
         <locationX>50</locationX>
-        <locationY>1934</locationY>
+        <locationY>1694</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>Add</operator>
@@ -667,7 +635,7 @@
         <name>AssignGrpIDCATV</name>
         <label>AssignGrpIDCATV</label>
         <locationX>50</locationX>
-        <locationY>2630</locationY>
+        <locationY>2390</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>Add</operator>
@@ -683,7 +651,7 @@
         <name>AssignGrpIDDCA</name>
         <label>AssignGrpIDDCA</label>
         <locationX>50</locationX>
-        <locationY>3326</locationY>
+        <locationY>3086</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>Add</operator>
@@ -699,7 +667,7 @@
         <name>AssignGrpIDDFI</name>
         <label>AssignGrpIDDFI</label>
         <locationX>50</locationX>
-        <locationY>4022</locationY>
+        <locationY>3782</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>Add</operator>
@@ -708,14 +676,14 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>HTTSDivHearingAC4_0</targetReference>
+            <targetReference>HTTSDivHearingAC5</targetReference>
         </connector>
     </assignments>
     <assignments>
         <name>AssignGrpIDO</name>
         <label>AssignGrpIDO</label>
         <locationX>50</locationX>
-        <locationY>4718</locationY>
+        <locationY>4478</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>Add</operator>
@@ -724,14 +692,14 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>HTTSDivHearingAC5</targetReference>
+            <targetReference>HTTSDivHearingAC6</targetReference>
         </connector>
     </assignments>
     <assignments>
         <name>AssignGrpINS</name>
         <label>AssignGrpINS</label>
         <locationX>50</locationX>
-        <locationY>6110</locationY>
+        <locationY>5870</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>Add</operator>
@@ -740,14 +708,14 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>HTTSDivReminder7</targetReference>
+            <targetReference>HTTSDivHearingAC8</targetReference>
         </connector>
     </assignments>
     <assignments>
         <name>AssignGrpISCO</name>
         <label>AssignGrpISCO</label>
         <locationX>50</locationX>
-        <locationY>6806</locationY>
+        <locationY>6566</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>Add</operator>
@@ -756,14 +724,14 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>HTTSDivReminder8</targetReference>
+            <targetReference>HTTSDivHearingAC9</targetReference>
         </connector>
     </assignments>
     <assignments>
         <name>AssignGrpOAH</name>
         <label>AssignGrpOAH</label>
         <locationX>50</locationX>
-        <locationY>7502</locationY>
+        <locationY>7262</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>Add</operator>
@@ -772,14 +740,14 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>HTTSDivReminder9</targetReference>
+            <targetReference>HTTSDivHearingAC10</targetReference>
         </connector>
     </assignments>
     <assignments>
         <name>AssignGrpOCP</name>
         <label>AssignGrpOCP</label>
         <locationX>50</locationX>
-        <locationY>8198</locationY>
+        <locationY>7958</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>Add</operator>
@@ -788,14 +756,14 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>HTTSDivReminder10</targetReference>
+            <targetReference>HTTSDivHearingAC11</targetReference>
         </connector>
     </assignments>
     <assignments>
         <name>AssignGrpPVL</name>
         <label>AssignGrpPVL</label>
         <locationX>50</locationX>
-        <locationY>8894</locationY>
+        <locationY>8654</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>Add</operator>
@@ -804,14 +772,14 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>HTTSDivReminder11</targetReference>
+            <targetReference>HTTSDivHearingAC12</targetReference>
         </connector>
     </assignments>
     <assignments>
         <name>AssignGrpRICO</name>
         <label>AssignGrpRICO</label>
         <locationX>50</locationX>
-        <locationY>9590</locationY>
+        <locationY>9350</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>Add</operator>
@@ -820,14 +788,14 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>HTTSDivReminder12</targetReference>
+            <targetReference>HTTSDivHearingAC13</targetReference>
         </connector>
     </assignments>
     <assignments>
         <name>ClearASO</name>
         <label>ClearASO</label>
         <locationX>50</locationX>
-        <locationY>1478</locationY>
+        <locationY>1238</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>RemoveAll</operator>
@@ -843,7 +811,7 @@
         <name>ClearBREG</name>
         <label>ClearBREG</label>
         <locationX>50</locationX>
-        <locationY>2174</locationY>
+        <locationY>1934</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>RemoveAll</operator>
@@ -859,7 +827,7 @@
         <name>ClearCATV</name>
         <label>ClearCATV</label>
         <locationX>50</locationX>
-        <locationY>2870</locationY>
+        <locationY>2630</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>RemoveAll</operator>
@@ -875,7 +843,7 @@
         <name>ClearDCA</name>
         <label>ClearDCA</label>
         <locationX>50</locationX>
-        <locationY>3566</locationY>
+        <locationY>3326</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>RemoveAll</operator>
@@ -891,7 +859,7 @@
         <name>ClearDFI</name>
         <label>ClearDFI</label>
         <locationX>50</locationX>
-        <locationY>4262</locationY>
+        <locationY>4022</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>RemoveAll</operator>
@@ -907,7 +875,7 @@
         <name>ClearDO</name>
         <label>ClearDO</label>
         <locationX>50</locationX>
-        <locationY>4958</locationY>
+        <locationY>4718</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>RemoveAll</operator>
@@ -923,7 +891,7 @@
         <name>ClearHPEAP</name>
         <label>ClearHPEAP</label>
         <locationX>50</locationX>
-        <locationY>5654</locationY>
+        <locationY>5414</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>RemoveAll</operator>
@@ -939,7 +907,7 @@
         <name>ClearINS</name>
         <label>ClearINS</label>
         <locationX>50</locationX>
-        <locationY>6350</locationY>
+        <locationY>6110</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>RemoveAll</operator>
@@ -955,7 +923,7 @@
         <name>ClearISCO</name>
         <label>ClearISCO</label>
         <locationX>50</locationX>
-        <locationY>7046</locationY>
+        <locationY>6806</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>RemoveAll</operator>
@@ -971,7 +939,7 @@
         <name>ClearOAH</name>
         <label>ClearOAH</label>
         <locationX>50</locationX>
-        <locationY>7742</locationY>
+        <locationY>7502</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>RemoveAll</operator>
@@ -987,7 +955,7 @@
         <name>ClearOCP</name>
         <label>ClearOCP</label>
         <locationX>50</locationX>
-        <locationY>8438</locationY>
+        <locationY>8198</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>RemoveAll</operator>
@@ -1003,7 +971,7 @@
         <name>ClearPVL</name>
         <label>ClearPVL</label>
         <locationX>50</locationX>
-        <locationY>9134</locationY>
+        <locationY>8894</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>RemoveAll</operator>
@@ -1019,7 +987,7 @@
         <name>ClearRICO</name>
         <label>ClearRICO</label>
         <locationX>50</locationX>
-        <locationY>9830</locationY>
+        <locationY>9590</locationY>
         <assignmentItems>
             <assignToReference>GMRecipients</assignToReference>
             <operator>RemoveAll</operator>
@@ -1032,7 +1000,7 @@
         <name>AnyASOGrps</name>
         <label>AnyASOGrps</label>
         <locationX>182</locationX>
-        <locationY>998</locationY>
+        <locationY>758</locationY>
         <defaultConnector>
             <targetReference>AnyBREGGrps</targetReference>
         </defaultConnector>
@@ -1085,7 +1053,7 @@
         <name>AnyBREGGrps</name>
         <label>AnyBREGGrps</label>
         <locationX>182</locationX>
-        <locationY>1694</locationY>
+        <locationY>1454</locationY>
         <defaultConnector>
             <targetReference>AnyCATVGrps</targetReference>
         </defaultConnector>
@@ -1138,7 +1106,7 @@
         <name>AnyCATVGrps</name>
         <label>AnyCATVGrps</label>
         <locationX>182</locationX>
-        <locationY>2390</locationY>
+        <locationY>2150</locationY>
         <defaultConnector>
             <targetReference>AnyDCAGrps</targetReference>
         </defaultConnector>
@@ -1191,7 +1159,7 @@
         <name>AnyDCAGrps</name>
         <label>AnyDCAGrps</label>
         <locationX>182</locationX>
-        <locationY>3086</locationY>
+        <locationY>2846</locationY>
         <defaultConnector>
             <targetReference>AnyDFIGrps</targetReference>
         </defaultConnector>
@@ -1244,7 +1212,7 @@
         <name>AnyDFIGrps</name>
         <label>AnyDFIGrps</label>
         <locationX>182</locationX>
-        <locationY>3782</locationY>
+        <locationY>3542</locationY>
         <defaultConnector>
             <targetReference>AnyDOGrps</targetReference>
         </defaultConnector>
@@ -1297,7 +1265,7 @@
         <name>AnyDOGrps</name>
         <label>AnyDOGrps</label>
         <locationX>182</locationX>
-        <locationY>4478</locationY>
+        <locationY>4238</locationY>
         <defaultConnector>
             <targetReference>AnyHPEAPGrps</targetReference>
         </defaultConnector>
@@ -1350,7 +1318,7 @@
         <name>AnyHPEAPGrps</name>
         <label>AnyHPEAPGrps</label>
         <locationX>182</locationX>
-        <locationY>5174</locationY>
+        <locationY>4934</locationY>
         <defaultConnector>
             <targetReference>AnyINSGrps</targetReference>
         </defaultConnector>
@@ -1403,7 +1371,7 @@
         <name>AnyINSGrps</name>
         <label>AnyINSGrps</label>
         <locationX>182</locationX>
-        <locationY>5870</locationY>
+        <locationY>5630</locationY>
         <defaultConnector>
             <targetReference>AnyISCOGrps</targetReference>
         </defaultConnector>
@@ -1456,7 +1424,7 @@
         <name>AnyISCOGrps</name>
         <label>AnyISCOGrps</label>
         <locationX>182</locationX>
-        <locationY>6566</locationY>
+        <locationY>6326</locationY>
         <defaultConnector>
             <targetReference>AnyOAHGrps</targetReference>
         </defaultConnector>
@@ -1509,7 +1477,7 @@
         <name>AnyOAHGrps</name>
         <label>AnyOAHGrps</label>
         <locationX>182</locationX>
-        <locationY>7262</locationY>
+        <locationY>7022</locationY>
         <defaultConnector>
             <targetReference>AnyOCPGrps</targetReference>
         </defaultConnector>
@@ -1562,7 +1530,7 @@
         <name>AnyOCPGrps</name>
         <label>AnyOCPGrps</label>
         <locationX>182</locationX>
-        <locationY>7958</locationY>
+        <locationY>7718</locationY>
         <defaultConnector>
             <targetReference>AnyPVLGrps</targetReference>
         </defaultConnector>
@@ -1615,7 +1583,7 @@
         <name>AnyPVLGrps</name>
         <label>AnyPVLGrps</label>
         <locationX>182</locationX>
-        <locationY>8654</locationY>
+        <locationY>8414</locationY>
         <defaultConnector>
             <targetReference>AnyRICOGrps</targetReference>
         </defaultConnector>
@@ -1668,7 +1636,7 @@
         <name>AnyRICOGrps</name>
         <label>AnyRICOGrps</label>
         <locationX>182</locationX>
-        <locationY>9350</locationY>
+        <locationY>9110</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>RICONotify</name>
@@ -1714,6 +1682,7 @@
             <label>RICONotify</label>
         </rules>
     </decisions>
+    <environments>Default</environments>
     <interviewLabel>HTMeetingAddChg {!$Flow.CurrentDateTime}</interviewLabel>
     <label>HTMeetingAddChg</label>
     <processMetadataValues>
@@ -1739,7 +1708,7 @@
         <name>CstmNotifIdHTAC</name>
         <label>CstmNotifIdHTAC</label>
         <locationX>182</locationX>
-        <locationY>878</locationY>
+        <locationY>638</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>AnyASOGrps</targetReference>
@@ -1760,7 +1729,7 @@
         <name>GetMeasHTRec</name>
         <label>GetMeasHTRec</label>
         <locationX>182</locationX>
-        <locationY>758</locationY>
+        <locationY>518</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>CstmNotifIdHTAC</targetReference>
@@ -1781,7 +1750,7 @@
         <name>GetMeasRec</name>
         <label>GetMeasRec</label>
         <locationX>182</locationX>
-        <locationY>398</locationY>
+        <locationY>278</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>MeasHTInvok_0</targetReference>
@@ -1802,7 +1771,7 @@
         <name>GroupsUsedASO</name>
         <label>GroupsUsedASO</label>
         <locationX>50</locationX>
-        <locationY>1118</locationY>
+        <locationY>878</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>AssignGrpIDASO</targetReference>
@@ -1829,7 +1798,7 @@
         <name>GroupsUsedBREG</name>
         <label>GroupsUsedBREG</label>
         <locationX>50</locationX>
-        <locationY>1814</locationY>
+        <locationY>1574</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>AssignGrpIDBREG</targetReference>
@@ -1856,7 +1825,7 @@
         <name>GroupsUsedCATV</name>
         <label>GroupsUsedCATV</label>
         <locationX>50</locationX>
-        <locationY>2510</locationY>
+        <locationY>2270</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>AssignGrpIDCATV</targetReference>
@@ -1883,7 +1852,7 @@
         <name>GroupsUsedDCA</name>
         <label>GroupsUsedDCA</label>
         <locationX>50</locationX>
-        <locationY>3206</locationY>
+        <locationY>2966</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>AssignGrpIDDCA</targetReference>
@@ -1910,7 +1879,7 @@
         <name>GroupsUsedDFI</name>
         <label>GroupsUsedDFI</label>
         <locationX>50</locationX>
-        <locationY>3902</locationY>
+        <locationY>3662</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>AssignGrpIDDFI</targetReference>
@@ -1937,7 +1906,7 @@
         <name>GroupsUsedDO</name>
         <label>GroupsUsedDO</label>
         <locationX>50</locationX>
-        <locationY>4598</locationY>
+        <locationY>4358</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>AssignGrpIDO</targetReference>
@@ -1964,7 +1933,7 @@
         <name>GroupsUsedHPEAP</name>
         <label>GroupsUsedHPEAP</label>
         <locationX>50</locationX>
-        <locationY>5294</locationY>
+        <locationY>5054</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>AssignGrpHPEAP</targetReference>
@@ -1991,7 +1960,7 @@
         <name>GroupsUsedINS</name>
         <label>GroupsUsedINS</label>
         <locationX>50</locationX>
-        <locationY>5990</locationY>
+        <locationY>5750</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>AssignGrpINS</targetReference>
@@ -2018,7 +1987,7 @@
         <name>GroupsUsedISCO</name>
         <label>GroupsUsedISCO</label>
         <locationX>50</locationX>
-        <locationY>6686</locationY>
+        <locationY>6446</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>AssignGrpISCO</targetReference>
@@ -2045,7 +2014,7 @@
         <name>GroupsUsedOAH</name>
         <label>GroupsUsedOAH</label>
         <locationX>50</locationX>
-        <locationY>7382</locationY>
+        <locationY>7142</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>AssignGrpOAH</targetReference>
@@ -2072,7 +2041,7 @@
         <name>GroupsUsedOCP</name>
         <label>GroupsUsedOCP</label>
         <locationX>50</locationX>
-        <locationY>8078</locationY>
+        <locationY>7838</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>AssignGrpOCP</targetReference>
@@ -2099,7 +2068,7 @@
         <name>GroupsUsedPVL</name>
         <label>GroupsUsedPVL</label>
         <locationX>50</locationX>
-        <locationY>8774</locationY>
+        <locationY>8534</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>AssignGrpPVL</targetReference>
@@ -2126,7 +2095,7 @@
         <name>GroupsUsedRICO</name>
         <label>GroupsUsedRICO</label>
         <locationX>50</locationX>
-        <locationY>9470</locationY>
+        <locationY>9230</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>AssignGrpRICO</targetReference>
@@ -2157,6 +2126,11 @@
         </connector>
     </start>
     <status>Active</status>
+    <textTemplates>
+        <name>HTMtgAddChgText</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>ATTENTION: A Committee Meeting has been added or changed for {!GetMeasHTRec.DCCA_LeTS_HT_Meas_Baseid__c} {!GetMeasHTRec.DCCA_LeTS_CmteMtgInfo__c} Please see the new meeting at - {!GetMeasHTRec.Name}</text>
+    </textTemplates>
     <variables>
         <name>ASOgrp</name>
         <dataType>String</dataType>
@@ -2360,6 +2334,14 @@
         <isInput>true</isInput>
         <isOutput>true</isOutput>
         <objectType>DCCA_LeTS_Hearings_Testimony__c</objectType>
+    </variables>
+    <variables>
+        <name>MeasRecId</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>DCCA_LeTS_Measure_Main__c</objectType>
     </variables>
     <variables>
         <name>OAHgrp</name>

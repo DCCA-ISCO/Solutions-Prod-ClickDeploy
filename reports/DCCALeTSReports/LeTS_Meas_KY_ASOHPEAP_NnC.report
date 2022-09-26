@@ -43,6 +43,13 @@
             <operator>contains</operator>
             <value>ASO,BREG,CATV,DCA,DFI,DO,HPEAP</value>
         </criteriaItems>
+        <criteriaItems>
+            <column>CUST_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>startsWith</operator>
+            <value>2023-2024</value>
+        </criteriaItems>
     </filter>
     <format>Summary</format>
     <groupingsDown>

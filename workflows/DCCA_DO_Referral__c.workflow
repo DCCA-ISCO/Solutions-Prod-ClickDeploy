@@ -8,7 +8,8 @@
             <recipient>kdobrowo@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_DO_Ref_Email_Templates/DCCA_DO_Referral_Req_Approval</template>
     </alerts>
     <alerts>
@@ -39,7 +40,8 @@
             <field>Email_Field__c</field>
             <type>email</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_DO_Ref_Email_Templates/DCCA_DO_Ref_SendtoDiv</template>
     </alerts>
     <alerts>
@@ -70,7 +72,8 @@
             <field>Email_DIV2_Primary__c</field>
             <type>email</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_DO_Ref_Email_Templates/DCCA_DO_Ref_SendtoDiv</template>
     </alerts>
     <alerts>
@@ -105,7 +108,8 @@
             <recipient>kdobrowo@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_DO_Ref_Email_Templates/DCCA_DO_Referral_Assignment</template>
     </alerts>
     <alerts>
@@ -140,7 +144,8 @@
             <recipient>kdobrowo@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_DO_Ref_Email_Templates/DCCA_DO_Referral_Assignment</template>
     </alerts>
     <alerts>
@@ -175,7 +180,8 @@
             <recipient>kdobrowo@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_DO_Ref_Email_Templates/DCCA_DO_Referral_Reminder</template>
     </alerts>
     <alerts>
@@ -210,7 +216,8 @@
             <recipient>kdobrowo@dcca.hawaii.gov.solutions</recipient>
             <type>user</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderAddress>kdobrowo@dcca.hawaii.gov</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>DCCA_DO_Ref_Email_Templates/DCCA_DO_Referral_Reminder</template>
     </alerts>
     <fieldUpdates>

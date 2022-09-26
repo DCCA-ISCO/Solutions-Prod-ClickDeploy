@@ -9,12 +9,12 @@
         <value>OAH Filing Party Info</value>
     </caseValues>
     <fields>
-        <label><!-- Date Received --></label>
-        <name>Date_Received__c</name>
-    </fields>
-    <fields>
         <label><!-- Date of Filing --></label>
         <name>Date_of_Filing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Received --></label>
+        <name>Date_Received__c</name>
     </fields>
     <fields>
         <label><!-- Filing Date --></label>
@@ -45,31 +45,6 @@
     <fields>
         <label><!-- Old Record ID --></label>
         <name>Old_Record_ID__c</name>
-    </fields>
-    <fields>
-        <label><!-- Party Description --></label>
-        <name>Party_Description__c</name>
-    </fields>
-    <fields>
-        <label><!-- Party Name --></label>
-        <name>Party_Name__c</name>
-        <relationshipLabel><!-- OAH Filing Party Info --></relationshipLabel>
-    </fields>
-    <fields>
-        <label><!-- Party Record ID text --></label>
-        <name>Party_Record_ID_text__c</name>
-    </fields>
-    <fields>
-        <label><!-- Party Type --></label>
-        <name>Party_Type__c</name>
-        <picklistValues>
-            <masterLabel>Attorney</masterLabel>
-            <translation><!-- Attorney --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Pro Se</masterLabel>
-            <translation><!-- Pro Se --></translation>
-        </picklistValues>
     </fields>
     <fields>
         <label><!-- Party --></label>
@@ -109,6 +84,31 @@
         <picklistValues>
             <masterLabel>Respondent-Pro Se</masterLabel>
             <translation><!-- Respondent-Pro Se --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Party Description --></label>
+        <name>Party_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Party Name --></label>
+        <name>Party_Name__c</name>
+        <relationshipLabel><!-- OAH Filing Party Info --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Party Record ID text --></label>
+        <name>Party_Record_ID_text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Party Type --></label>
+        <name>Party_Type__c</name>
+        <picklistValues>
+            <masterLabel>Attorney</masterLabel>
+            <translation><!-- Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pro Se</masterLabel>
+            <translation><!-- Pro Se --></translation>
         </picklistValues>
     </fields>
     <fields>
