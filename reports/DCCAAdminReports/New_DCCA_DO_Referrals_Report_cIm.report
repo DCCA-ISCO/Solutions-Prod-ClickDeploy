@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_ID</field>
+    </columns>
+    <columns>
+        <field>DCCA_DO_Referral__c.Additional_Information__c</field>
+    </columns>
+    <columns>
+        <field>DCCA_DO_Referral__c.Constituent__c</field>
+    </columns>
+    <columns>
+        <field>DCCA_DO_Referral__c.Referral_NO__c</field>
+    </columns>
+    <columns>
+        <field>DCCA_DO_Referral__c.Division__c</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_DATE</field>
+    </columns>
+    <format>Tabular</format>
+    <name>DCCA DO Referrals Migrations</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$DCCA_DO_Referral__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>DCCA_DO_Referral__c.CLOSED__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

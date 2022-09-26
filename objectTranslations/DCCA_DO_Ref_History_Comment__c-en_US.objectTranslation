@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DCCA DO Ref History Comment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DCCA DO Ref History Comments</value>
+    </caseValues>
+    <fields>
+        <label><!-- DCCA Comment Date --></label>
+        <name>DCCA_Comment_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA Comment Text --></label>
+        <name>DCCA_Comment_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA DO Comment DIV --></label>
+        <name>DCCA_DO_Comment_DIV__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA DO Comment SendTo --></label>
+        <name>DCCA_DO_Comment_SendTo__c</name>
+        <picklistValues>
+            <masterLabel>To DIV</masterLabel>
+            <translation><!-- To DIV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To DO</masterLabel>
+            <translation><!-- To DO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DCCA DO DIV2 CC2 --></label>
+        <name>DCCA_DO_DIV2_CC2__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA DO DIV2 CC3 --></label>
+        <name>DCCA_DO_DIV2_CC3__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA DO DIV2 CC --></label>
+        <name>DCCA_DO_DIV2_CC__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA DO DIV2 primary2 --></label>
+        <name>DCCA_DO_DIV2_primary2__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA DO DIV2 primary3 --></label>
+        <name>DCCA_DO_DIV2_primary3__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA DO DIV2 primary --></label>
+        <name>DCCA_DO_DIV2_primary__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA DO DIV CC2 --></label>
+        <name>DCCA_DO_DIV_CC2__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA DO DIV CC3 --></label>
+        <name>DCCA_DO_DIV_CC3__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA DO DIV CC --></label>
+        <name>DCCA_DO_DIV_CC__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA DO DIV primary2 --></label>
+        <name>DCCA_DO_DIV_primary2__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA DO DIV primary3 --></label>
+        <name>DCCA_DO_DIV_primary3__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA DO DIV primary --></label>
+        <name>DCCA_DO_DIV_primary__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA DO Referral --></label>
+        <name>DCCA_DO_Referral__c</name>
+        <relationshipLabel><!-- DCCA DO Ref History Comments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DO Ref Additional Info --></label>
+        <name>DO_Ref_Additional_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- DOR Ref NO --></label>
+        <name>DOR_Ref_NO__c</name>
+    </fields>
+    <layouts>
+        <layout>DCCA DO Ref History Comment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- DCCA DO Ref Comments --></label>
+        <name>DCCA_DO_Ref_Comments</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

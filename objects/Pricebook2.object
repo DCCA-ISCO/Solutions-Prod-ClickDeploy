@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsActive</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsStandard</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <listViews>
+        <fullName>All_Price_Books</fullName>
+        <columns>PRICEBOOK2.NAME</columns>
+        <columns>PRICEBOOK2.DESCRIPTION</columns>
+        <columns>PRICEBOOK2.LAST_UPDATE</columns>
+        <columns>PRICEBOOK2.IS_ACTIVE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Price Books</label>
+    </listViews>
+</CustomObject>

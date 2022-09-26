@@ -1,0 +1,10 @@
+Division - {!DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_HT_DIV_Lead__c}
+
+Testimony for {!DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_CmteMtgInfo__c}
+has been submitted to the HSL site and emailed to ETT.
+
+Hearings and Testimony record link -  {!DCCA_LeTS_Hearings_Testimony__c.Link}
+
+Use this link to access the file from the Measure - {!DCCA_LeTS_Measure_Main__c.Link}
+Or
+access directly in LeTS SharePoint.

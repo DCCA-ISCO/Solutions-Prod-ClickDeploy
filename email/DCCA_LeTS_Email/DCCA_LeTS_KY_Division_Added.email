@@ -1,0 +1,9 @@
+A Division and Matching Keyword was added:
+
+Division - {!DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_DIV__c} - and keyword - 
+
+{!DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Keyword__c} - added.
+
+Measure related to this change -  {!DCCA_LeTS_Div_Keyword__c.DCCA_LeTS_KY_Meas_Baseid__c}.
+
+Keyword match details can be found at this link - {!DCCA_LeTS_Div_Keyword__c.Link}

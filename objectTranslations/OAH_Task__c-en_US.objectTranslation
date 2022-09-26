@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OAH Task</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OAH Tasks</value>
+    </caseValues>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>Assigned_To__c</name>
+        <relationshipLabel><!-- OAH Tasks (Assigned To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assigned_to_Me --></label>
+        <name>Assigned_to_Me__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delegated_by_me --></label>
+        <name>Delegated_by_me__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- From --></label>
+        <name>From__c</name>
+        <relationshipLabel><!-- OAH Tasks (From) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notify Sender of Completion --></label>
+        <name>Notify_Sender_of_Completion__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAH Case Name --></label>
+        <name>OAH_Case_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAH Case --></label>
+        <name>OAH_Case_Number__c</name>
+        <relationshipLabel><!-- OAH Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- OAH Event --></label>
+        <name>OAH_Event__c</name>
+        <relationshipLabel><!-- OAH Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- OAH Order --></label>
+        <name>OAH_Order__c</name>
+        <relationshipLabel><!-- OAH Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Old Record ID --></label>
+        <name>Old_Record_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation><!-- Normal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deferred</masterLabel>
+            <translation><!-- Deferred --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on Someone Else</masterLabel>
+            <translation><!-- Waiting on Someone Else --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Name --></label>
+        <name>Task_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>OAH Task Admin Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OAH Task Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <sharingReasons>
+        <label><!-- Share Task with Creator --></label>
+        <name>Share_Task_with_Creator</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

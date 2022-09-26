@@ -1,0 +1,9 @@
+Division - {!DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_HT_DIV3__c}
+
+For Committee Hearing - {!DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_CmteMtgInfo__c}
+
+Changed Hearing Position - {!DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_HT_DIV3_Hearing_Position__c}
+
+Use this link for Committee Hearing record - {!DCCA_LeTS_Hearings_Testimony__c.Link}
+
+For Measure record - {!DCCA_LeTS_Hearings_Testimony__c.DCCA_LeTS_Measure_base__c}

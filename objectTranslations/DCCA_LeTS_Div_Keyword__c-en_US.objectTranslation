@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DCCA LeTS Div Keyword</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DCCA LeTS Div Keywords</value>
+    </caseValues>
+    <fields>
+        <label><!-- Keyword Location --></label>
+        <name>DCCA_LeTS_Keyword_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context10 --></label>
+        <name>DCCA_LeTS_KY_Context10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context11 --></label>
+        <name>DCCA_LeTS_KY_Context11__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context12 --></label>
+        <name>DCCA_LeTS_KY_Context12__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context13 --></label>
+        <name>DCCA_LeTS_KY_Context13__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context14 --></label>
+        <name>DCCA_LeTS_KY_Context14__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context15 --></label>
+        <name>DCCA_LeTS_KY_Context15__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context2 --></label>
+        <name>DCCA_LeTS_KY_Context2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context3 --></label>
+        <name>DCCA_LeTS_KY_Context3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context4 --></label>
+        <name>DCCA_LeTS_KY_Context4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context5 --></label>
+        <name>DCCA_LeTS_KY_Context5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context6 --></label>
+        <name>DCCA_LeTS_KY_Context6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context7 --></label>
+        <name>DCCA_LeTS_KY_Context7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context8 --></label>
+        <name>DCCA_LeTS_KY_Context8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context9 --></label>
+        <name>DCCA_LeTS_KY_Context9__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Context --></label>
+        <name>DCCA_LeTS_KY_Context__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword DIV --></label>
+        <name>DCCA_LeTS_KY_DIV__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS KY Email All --></label>
+        <name>DCCA_LeTS_KY_Email_All__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS KY Email ASO --></label>
+        <name>DCCA_LeTS_KY_Email_ASO__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS KY Email BREG --></label>
+        <name>DCCA_LeTS_KY_Email_BREG__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS KY Email CATV --></label>
+        <name>DCCA_LeTS_KY_Email_CATV__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS KY Email Coord --></label>
+        <name>DCCA_LeTS_KY_Email_Coord__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS KY Email DCA --></label>
+        <name>DCCA_LeTS_KY_Email_DCA__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS KY Email DFI --></label>
+        <name>DCCA_LeTS_KY_Email_DFI__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS KY Email DO --></label>
+        <name>DCCA_LeTS_KY_Email_DO__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS KY Email HPEAP --></label>
+        <name>DCCA_LeTS_KY_Email_HPEAP__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS KY Email INS --></label>
+        <name>DCCA_LeTS_KY_Email_INS__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS KY Email ISCO --></label>
+        <name>DCCA_LeTS_KY_Email_ISCO__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS KY Email OAH --></label>
+        <name>DCCA_LeTS_KY_Email_OAH__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS KY Email OCP --></label>
+        <name>DCCA_LeTS_KY_Email_OCP__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS KY Email PVL --></label>
+        <name>DCCA_LeTS_KY_Email_PVL__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS KY Email RICO --></label>
+        <name>DCCA_LeTS_KY_Email_RICO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Matching Keyword --></label>
+        <name>DCCA_LeTS_KY_Keyword__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Location Percent --></label>
+        <name>DCCA_LeTS_KY_Location_Entry__c</name>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS KY Meas Base --></label>
+        <name>DCCA_LeTS_KY_Meas_Base__c</name>
+        <relationshipLabel><!-- DCCA LeTS Div Keywords --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DCCA LeTS KY Meas Baseid --></label>
+        <name>DCCA_LeTS_KY_Meas_Baseid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword PageLine --></label>
+        <name>DCCA_LeTS_KY_PageLine__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword PercentLoc --></label>
+        <name>DCCA_LeTS_KY_PercentLoc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Full Context --></label>
+        <name>Keyword_Full_Context__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Match Score --></label>
+        <name>Keyword_Match_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Measure --></label>
+        <name>Keyword_Measure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword Score --></label>
+        <name>Keyword_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- KY PDF datetime --></label>
+        <name>KY_PDF_datetime__c</name>
+    </fields>
+    <fields>
+        <label><!-- KY PDF name --></label>
+        <name>KY_PDF_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- LeTS DivKY ComboKey --></label>
+        <name>LeTS_DivKY_ComboKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- LeTS DivKY ComboValue --></label>
+        <name>LeTS_DivKY_ComboValue__c</name>
+    </fields>
+    <layouts>
+        <layout>DCCA LeTS Div Keyword Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Prior LeTS Div Keyword Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- LeTS KY Email Updt1 --></label>
+        <name>LeTS_KY_Email_Updt1</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LeTS KY Email Updt2 --></label>
+        <name>LeTS_KY_Email_Updt2</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LeTS KYContext changed --></label>
+        <name>LeTS_KYContext_changed</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Current session divKY record --></description>
+        <label><!-- CurrentDivKY --></label>
+        <name>CurrentDivKY</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PRIORDivKY --></label>
+        <name>PRIORDivKY</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

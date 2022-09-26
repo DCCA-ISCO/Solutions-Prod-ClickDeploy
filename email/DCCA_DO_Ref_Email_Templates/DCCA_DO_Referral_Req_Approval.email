@@ -1,0 +1,10 @@
+For referral response approval from Division(s) - {!DCCA_DO_Referral__c.Division__c} {!DCCA_DO_Referral__c.Division_2__c} please see DCCA Division file information below.  
+
+Please see DCCA Comment for information from Division. 
+
+DCCA Director's Office Referral: {!DCCA_DO_Referral__c.Name}                       
+DCCA Referral Number: {!DCCA_DO_Referral__c.Referral_NO__c}                   
+DCCA Constituent: {!DCCA_DO_Referral__c.Constituent__c} 
+DCCA Division file information: {!DCCA_DO_Referral__c.Divsion_Response__c}   
+
+Referral link: {!DCCA_DO_Referral__c.Link}

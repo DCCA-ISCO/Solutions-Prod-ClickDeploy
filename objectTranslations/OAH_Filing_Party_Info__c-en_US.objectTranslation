@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OAH Filing Party Info</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OAH Filing Party Info</value>
+    </caseValues>
+    <fields>
+        <label><!-- Date of Filing --></label>
+        <name>Date_of_Filing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Received --></label>
+        <name>Date_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Filing Date --></label>
+        <name>Filing_Date_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Filing Party --></label>
+        <name>Filing_Party_Text2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Filing Party --></label>
+        <name>Filing_Party_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- OAH Case Number --></label>
+        <name>OAH_Case_Number__c</name>
+        <relationshipLabel><!-- OAH Filing Party Info --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Party Name --></label>
+        <name>OAH_Party_Name__c</name>
+        <relationshipLabel><!-- OAH Filing Party Info --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Old Record ID --></label>
+        <name>Old_Record_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Party --></label>
+        <name>Party__c</name>
+        <picklistValues>
+            <masterLabel>Court</masterLabel>
+            <translation><!-- Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DCCA</masterLabel>
+            <translation><!-- DCCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intervenor-Attorney</masterLabel>
+            <translation><!-- Intervenor-Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intervenor-Pro Se</masterLabel>
+            <translation><!-- Intervenor-Pro Se --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OAH</masterLabel>
+            <translation><!-- OAH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Petitioner-Attorney</masterLabel>
+            <translation><!-- Petitioner-Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Petitioner-Pro Se</masterLabel>
+            <translation><!-- Petitioner-Pro Se --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respondent-Attorney</masterLabel>
+            <translation><!-- Respondent-Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respondent-Pro Se</masterLabel>
+            <translation><!-- Respondent-Pro Se --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Party Description --></label>
+        <name>Party_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Party Name --></label>
+        <name>Party_Name__c</name>
+        <relationshipLabel><!-- OAH Filing Party Info --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Party Record ID text --></label>
+        <name>Party_Record_ID_text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Party Type --></label>
+        <name>Party_Type__c</name>
+        <picklistValues>
+            <masterLabel>Attorney</masterLabel>
+            <translation><!-- Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pro Se</masterLabel>
+            <translation><!-- Pro Se --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Title of Document --></label>
+        <name>Title_of_Document__c</name>
+    </fields>
+    <layouts>
+        <layout>Filing Party Info Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
